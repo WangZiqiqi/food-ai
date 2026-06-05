@@ -1,0 +1,60 @@
+# Food-AI knowledge graph refinement pipeline configuration.
+
+iteration:
+  max_iterations: 3
+  convergence_threshold: 0.9
+  min_fix_per_iteration: 1
+  max_fix_per_iteration: 10
+
+agents:
+  reviewer:
+    timeout: 600
+    max_turns: 10
+  refiner:
+    timeout: 600
+    max_turns: 15
+    auto_backup: true
+
+decision:
+  model: minimax-m2.7
+  temperature: 0.3
+  rules:
+    critical:
+      action: refine
+      priority: P0
+    major:
+      action: refine
+      priority: P1
+    minor:
+      action: optional
+      priority: P2
+    uncertain:
+      action: skip
+      priority: P3
+
+issue_types:
+  misclassification:
+    description: Entity is assigned to the wrong type.
+    auto_fixable: true
+    action: update_type
+  duplicate:
+    description: Multiple entities represent the same concept.
+    auto_fixable: false
+    action: merge_entities
+  naming:
+    description: Entity naming is inconsistent.
+    auto_fixable: true
+    action: rename_entity
+  conflict:
+    description: Claims contain potentially conflicting directions.
+    auto_fixable: false
+    action: flag_conflict
+  orphan:
+    description: Entity has no connected claims.
+    auto_fixable: true
+    action: delete_orphan
+
+logging:
+  save_reports: true
+  save_backups: true
+  log_level: INFO

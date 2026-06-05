@@ -1,0 +1,453 @@
+{
+  "manifest_id": "food_ai_final_manifest",
+  "created_date": "2026-06-03",
+  "graph_label": "Food-AI final 850-paper graph",
+  "entries": {
+    "extraction_json": {
+      "path": "data/processed/final_graph/food_ai_graph.json",
+      "exists": true,
+      "size_bytes": 7384493,
+      "mtime": 1780340763.2933586,
+      "sha256": "e969e65c150b9ca56d7a2325ddf318285745ba708815f4f2643a3eed59bc7db3"
+    },
+    "graph_pickle": {
+      "path": "data/processed/final_graph/food_ai_graph.pkl",
+      "exists": true,
+      "size_bytes": 3214817,
+      "mtime": 1780340763.3286493,
+      "sha256": "e6f29c4dc1d1696633c4f29a7454a961e84527505a4ebc701f52ca86fc446366"
+    },
+    "networkx_json": {
+      "path": "data/processed/final_graph/food_ai_graph_networkx.json",
+      "exists": true,
+      "size_bytes": 6957382,
+      "mtime": 1780340763.3633149,
+      "sha256": "891f61591383d7e877fb9a77711f5dbc4fd496b7e389e3418428c1602ed5061e"
+    },
+    "quality_report": {
+      "path": "data/processed/final_graph/food_ai_graph_quality_report.json",
+      "exists": true,
+      "size_bytes": 138891,
+      "mtime": 1780340763.3742557,
+      "sha256": "bbb4bb67b85d3dd9a8c5dbe7c75f61ac405d33937b8813e6110c4b0f7c6b4238"
+    },
+    "bge_m3_embeddings": {
+      "path": "data/processed/final_graph/claim_embeddings_bge_m3.json",
+      "exists": true,
+      "size_bytes": 52529185,
+      "mtime": 1780341561.7041523,
+      "sha256": "987c9a63ae2ea619a74e315edca69ac03ff0f18cebebdd4bf1a5a60385849d64"
+    },
+    "clean120_repaired_benchmark": {
+      "path": "data/evaluation/clean120_benchmark.json",
+      "exists": true,
+      "size_bytes": 676781,
+      "mtime": 1780424183.1120186,
+      "sha256": "be36882b2fae090f18ca4d84bd8b7a91e1f15212fb1223cf319cb2ceda9daa22"
+    },
+    "clean120_repaired_retrieval": {
+      "path": "data/evaluation/clean120_retrieval_claim_vectors.json",
+      "exists": true,
+      "size_bytes": 1008905,
+      "mtime": 1780424289.8177059,
+      "sha256": "abf19c48483ad8ea8ef3f41e52105fbd4c7bff093c334032edc383331138a5d1"
+    },
+    "clean120_repaired_agent_rescore": {
+      "path": "data/evaluation/clean120_agent_results.json",
+      "exists": true,
+      "size_bytes": 696026,
+      "mtime": 1780424307.7700455,
+      "sha256": "c7859315251d065579e1e3513adef54b0d9fb487b72bac51d493e2be45eda908"
+    },
+    "independent_v1_benchmark": {
+      "path": "data/evaluation/independent_questions_v1_benchmark.json",
+      "exists": true,
+      "size_bytes": 37179,
+      "mtime": 1780424449.1629293,
+      "sha256": "420f5738bc3a4b0de318e4811f09a8ac9e3d66436fcedbe221e3ce60a8f4d2e3"
+    },
+    "independent_v1_agent_label_repaired": {
+      "path": "data/evaluation/independent_questions_v1_agent_results.json",
+      "exists": true,
+      "size_bytes": 364548,
+      "mtime": 1780424462.7254562,
+      "sha256": "11a96c7034eea7f9e670951636fe073735ec86ea37b29ef6c12895aad7e7d25b"
+    },
+    "independent_v1_review_summary_md": {
+      "path": "data/evaluation/independent_questions_v1_review_summary.md",
+      "exists": true,
+      "size_bytes": 3204,
+      "mtime": 1780424495.8324404,
+      "sha256": "7364e9c6f317eef859243edfd67332302540dd7c3baf85cec638bde8c9d3c3bf"
+    },
+    "clean120_repaired_raw_abstract_baseline": {
+      "path": "data/evaluation/clean120_raw_abstract_baseline.json",
+      "exists": true,
+      "size_bytes": 1299381,
+      "mtime": 1780506465.1640997,
+      "sha256": "215d74fe917008d136ba1a4cd1b78ec215e872e7b2e7ee690a7835fd80e9350e"
+    }
+  },
+  "summaries": {
+    "quality": {
+      "articles_total": 850,
+      "articles_success": 850,
+      "articles_error": 0,
+      "merged_claims": 3786,
+      "zero_claim_articles": 103,
+      "articles_with_warnings": 277,
+      "suspicious_food_entities": 0,
+      "over_specific_food_entities": 159
+    },
+    "clean120_retrieval": {
+      "count": 120,
+      "headline": {
+        "primary_metric": "pmid_recall@10",
+        "pmid_recall@10": 0.9924,
+        "pmid_hit@10": 1.0
+      },
+      "primary_pmid_metrics": {
+        "pmid_hit@1": 0.9667,
+        "pmid_hit@10": 1.0,
+        "pmid_hit@20": 1.0,
+        "pmid_hit@3": 0.9917,
+        "pmid_hit@5": 1.0,
+        "pmid_recall@1": 0.8818,
+        "pmid_recall@10": 0.9924,
+        "pmid_recall@20": 0.9972,
+        "pmid_recall@3": 0.959,
+        "pmid_recall@5": 0.975
+      },
+      "index_self_consistency": {
+        "claim_hit@1": 0.9333,
+        "claim_hit@10": 1.0,
+        "claim_hit@20": 1.0,
+        "claim_hit@3": 0.975,
+        "claim_hit@5": 0.9833,
+        "claim_recall@1": 0.8111,
+        "claim_recall@10": 0.9889,
+        "claim_recall@20": 0.9972,
+        "claim_recall@3": 0.9375,
+        "claim_recall@5": 0.9542,
+        "mrr": 0.9572,
+        "_note": "Claim-level recall measures index self-consistency: gold_claim_id IS the seed claim the question was generated from, so high recall is structural and does NOT indicate retrieval generalization. Use pmid_recall@k as the primary metric."
+      },
+      "by_question_type": {
+        "comparison": {
+          "count": 29,
+          "mrr": 0.9379,
+          "claim_hit@1": 0.8966,
+          "claim_hit@10": 1.0,
+          "claim_hit@20": 1.0,
+          "claim_hit@3": 0.9655,
+          "claim_hit@5": 1.0,
+          "claim_recall@1": 0.3908,
+          "claim_recall@10": 0.954,
+          "claim_recall@20": 0.9885,
+          "claim_recall@3": 0.8103,
+          "claim_recall@5": 0.8793,
+          "pmid_hit@1": 0.931,
+          "pmid_hit@10": 1.0,
+          "pmid_hit@20": 1.0,
+          "pmid_hit@3": 0.9655,
+          "pmid_hit@5": 1.0,
+          "pmid_recall@1": 0.5973,
+          "pmid_recall@10": 0.9684,
+          "pmid_recall@20": 0.9885,
+          "pmid_recall@3": 0.8649,
+          "pmid_recall@5": 0.9138
+        },
+        "description": {
+          "count": 41,
+          "mrr": 0.9878,
+          "claim_hit@1": 0.9756,
+          "claim_hit@10": 1.0,
+          "claim_hit@20": 1.0,
+          "claim_hit@3": 1.0,
+          "claim_hit@5": 1.0,
+          "claim_recall@1": 0.9756,
+          "claim_recall@10": 1.0,
+          "claim_recall@20": 1.0,
+          "claim_recall@3": 1.0,
+          "claim_recall@5": 1.0,
+          "pmid_hit@1": 0.9756,
+          "pmid_hit@10": 1.0,
+          "pmid_hit@20": 1.0,
+          "pmid_hit@3": 1.0,
+          "pmid_hit@5": 1.0,
+          "pmid_recall@1": 0.9756,
+          "pmid_recall@10": 1.0,
+          "pmid_recall@20": 1.0,
+          "pmid_recall@3": 1.0,
+          "pmid_recall@5": 1.0
+        },
+        "evidence_lookup": {
+          "count": 25,
+          "mrr": 0.9467,
+          "claim_hit@1": 0.92,
+          "claim_hit@10": 1.0,
+          "claim_hit@20": 1.0,
+          "claim_hit@3": 0.96,
+          "claim_hit@5": 0.96,
+          "claim_recall@1": 0.92,
+          "claim_recall@10": 1.0,
+          "claim_recall@20": 1.0,
+          "claim_recall@3": 0.96,
+          "claim_recall@5": 0.96,
+          "pmid_hit@1": 0.96,
+          "pmid_hit@10": 1.0,
+          "pmid_hit@20": 1.0,
+          "pmid_hit@3": 1.0,
+          "pmid_hit@5": 1.0,
+          "pmid_recall@1": 0.96,
+          "pmid_recall@10": 1.0,
+          "pmid_recall@20": 1.0,
+          "pmid_recall@3": 0.98,
+          "pmid_recall@5": 1.0
+        },
+        "reason": {
+          "count": 25,
+          "mrr": 0.94,
+          "claim_hit@1": 0.92,
+          "claim_hit@10": 1.0,
+          "claim_hit@20": 1.0,
+          "claim_hit@3": 0.96,
+          "claim_hit@5": 0.96,
+          "claim_recall@1": 0.92,
+          "claim_recall@10": 1.0,
+          "claim_recall@20": 1.0,
+          "claim_recall@3": 0.96,
+          "claim_recall@5": 0.96,
+          "pmid_hit@1": 1.0,
+          "pmid_hit@10": 1.0,
+          "pmid_hit@20": 1.0,
+          "pmid_hit@3": 1.0,
+          "pmid_hit@5": 1.0,
+          "pmid_recall@1": 0.98,
+          "pmid_recall@10": 1.0,
+          "pmid_recall@20": 1.0,
+          "pmid_recall@3": 0.98,
+          "pmid_recall@5": 0.98
+        }
+      },
+      "pmid_misses_at_10": [],
+      "index_self_consistency_misses_at_10": []
+    },
+    "clean120_agent": {
+      "count": 120,
+      "success_rate": 1.0,
+      "json_parse_rate": 1.0,
+      "avg_tool_calls": 29.08,
+      "graph_positive_count": 120,
+      "primary_metric": "pmid_recall",
+      "pmid_labeled_count": 120,
+      "claim_labeled_count": 120,
+      "external_review_count": 0,
+      "pmid_hit": 1.0,
+      "pmid_recall": 0.9848,
+      "index_self_consistency_claim_hit": 1.0,
+      "index_self_consistency_claim_recall": 0.9972,
+      "by_question_type": {
+        "comparison": {
+          "count": 29,
+          "success_rate": 1.0,
+          "json_parse_rate": 1.0,
+          "pmid_labeled_count": 29,
+          "claim_labeled_count": 29,
+          "external_review_count": 0,
+          "pmid_hit": 1.0,
+          "pmid_recall": 0.9885,
+          "index_self_consistency_claim_hit": 1.0,
+          "index_self_consistency_claim_recall": 0.9885
+        },
+        "description": {
+          "count": 41,
+          "success_rate": 1.0,
+          "json_parse_rate": 1.0,
+          "pmid_labeled_count": 41,
+          "claim_labeled_count": 41,
+          "external_review_count": 0,
+          "pmid_hit": 1.0,
+          "pmid_recall": 0.976,
+          "index_self_consistency_claim_hit": 1.0,
+          "index_self_consistency_claim_recall": 1.0
+        },
+        "evidence_lookup": {
+          "count": 25,
+          "success_rate": 1.0,
+          "json_parse_rate": 1.0,
+          "pmid_labeled_count": 25,
+          "claim_labeled_count": 25,
+          "external_review_count": 0,
+          "pmid_hit": 1.0,
+          "pmid_recall": 1.0,
+          "index_self_consistency_claim_hit": 1.0,
+          "index_self_consistency_claim_recall": 1.0
+        },
+        "reason": {
+          "count": 25,
+          "success_rate": 1.0,
+          "json_parse_rate": 1.0,
+          "pmid_labeled_count": 25,
+          "claim_labeled_count": 25,
+          "external_review_count": 0,
+          "pmid_hit": 1.0,
+          "pmid_recall": 0.98,
+          "index_self_consistency_claim_hit": 1.0,
+          "index_self_consistency_claim_recall": 1.0
+        }
+      }
+    },
+    "independent_agent": {
+      "count": 55,
+      "success_rate": 1.0,
+      "json_parse_rate": 1.0,
+      "avg_tool_calls": 39.35,
+      "graph_positive_count": 47,
+      "primary_metric": "pmid_recall",
+      "pmid_labeled_count": 2,
+      "claim_labeled_count": 0,
+      "external_review_count": 45,
+      "pmid_hit": 1.0,
+      "pmid_recall": 1.0,
+      "no_answer_count": 8,
+      "no_answer_correct": 1.0,
+      "abstention_rate": 1.0,
+      "by_question_type": {
+        "comparison": {
+          "count": 4,
+          "success_rate": 1.0,
+          "json_parse_rate": 1.0,
+          "pmid_labeled_count": 0,
+          "claim_labeled_count": 0,
+          "external_review_count": 4
+        },
+        "description": {
+          "count": 12,
+          "success_rate": 1.0,
+          "json_parse_rate": 1.0,
+          "pmid_labeled_count": 0,
+          "claim_labeled_count": 0,
+          "external_review_count": 12
+        },
+        "evidence_lookup": {
+          "count": 29,
+          "success_rate": 1.0,
+          "json_parse_rate": 1.0,
+          "pmid_labeled_count": 2,
+          "claim_labeled_count": 0,
+          "external_review_count": 27,
+          "pmid_hit": 1.0,
+          "pmid_recall": 1.0
+        },
+        "no_answer_candidate": {
+          "count": 8,
+          "success_rate": 1.0,
+          "json_parse_rate": 1.0,
+          "no_answer_correct": 1.0,
+          "abstention_rate": 1.0
+        },
+        "quality_review": {
+          "count": 2,
+          "success_rate": 1.0,
+          "json_parse_rate": 1.0,
+          "pmid_labeled_count": 0,
+          "claim_labeled_count": 0,
+          "external_review_count": 2
+        }
+      }
+    },
+    "raw_abstract_baseline": {
+      "count": 120,
+      "avg_max_similarity": 0.6929,
+      "graph_positive_count": 120,
+      "pmid_hit@1": 0.5,
+      "pmid_hit@10": 0.8583,
+      "pmid_hit@20": 0.9333,
+      "pmid_hit@3": 0.7,
+      "pmid_hit@5": 0.7667,
+      "pmid_recall@1": 0.4194,
+      "pmid_recall@10": 0.7323,
+      "pmid_recall@20": 0.8308,
+      "pmid_recall@3": 0.5488,
+      "pmid_recall@5": 0.6224,
+      "pmid_hit": 0.9333,
+      "pmid_recall": 0.8308,
+      "false_abstention_rate": 0.0,
+      "by_question_type": {
+        "comparison": {
+          "count": 29,
+          "avg_max_similarity": 0.7059,
+          "pmid_hit@1": 0.4483,
+          "pmid_hit@10": 0.7931,
+          "pmid_hit@20": 0.8966,
+          "pmid_hit@3": 0.6552,
+          "pmid_hit@5": 0.6552,
+          "pmid_recall@1": 0.3305,
+          "pmid_recall@10": 0.594,
+          "pmid_recall@20": 0.6975,
+          "pmid_recall@3": 0.4052,
+          "pmid_recall@5": 0.4655,
+          "pmid_hit": 0.8966,
+          "pmid_recall": 0.6975,
+          "false_abstention_rate": 0.0
+        },
+        "description": {
+          "count": 41,
+          "avg_max_similarity": 0.7093,
+          "pmid_hit@1": 0.7073,
+          "pmid_hit@10": 0.9268,
+          "pmid_hit@20": 0.9756,
+          "pmid_hit@3": 0.9024,
+          "pmid_hit@5": 0.9024,
+          "pmid_recall@1": 0.6402,
+          "pmid_recall@10": 0.8694,
+          "pmid_recall@20": 0.9625,
+          "pmid_recall@3": 0.783,
+          "pmid_recall@5": 0.8093,
+          "pmid_hit": 0.9756,
+          "pmid_recall": 0.9625,
+          "false_abstention_rate": 0.0
+        },
+        "evidence_lookup": {
+          "count": 25,
+          "avg_max_similarity": 0.6734,
+          "pmid_hit@1": 0.32,
+          "pmid_hit@10": 0.84,
+          "pmid_hit@20": 0.88,
+          "pmid_hit@3": 0.48,
+          "pmid_hit@5": 0.72,
+          "pmid_recall@1": 0.24,
+          "pmid_recall@10": 0.68,
+          "pmid_recall@20": 0.72,
+          "pmid_recall@3": 0.34,
+          "pmid_recall@5": 0.52,
+          "pmid_hit": 0.88,
+          "pmid_recall": 0.72,
+          "false_abstention_rate": 0.0
+        },
+        "reason": {
+          "count": 25,
+          "avg_max_similarity": 0.6704,
+          "pmid_hit@1": 0.4,
+          "pmid_hit@10": 0.84,
+          "pmid_hit@20": 0.96,
+          "pmid_hit@3": 0.64,
+          "pmid_hit@5": 0.72,
+          "pmid_recall@1": 0.34,
+          "pmid_recall@10": 0.72,
+          "pmid_recall@20": 0.88,
+          "pmid_recall@3": 0.54,
+          "pmid_recall@5": 0.6,
+          "pmid_hit": 0.96,
+          "pmid_recall": 0.88,
+          "false_abstention_rate": 0.0
+        }
+      }
+    }
+  },
+  "notes": [
+    "This public repository retains only the final 850-paper graph/evaluation bundle; historical rebuild artifacts and internal notes are excluded.",
+    "Claim-level recall is reported as index self-consistency; PMID-level recall is the primary retrieval metric."
+  ]
+}

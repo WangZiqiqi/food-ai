@@ -1,0 +1,1942 @@
+{
+  "summary": {
+    "articles_total": 850,
+    "articles_success": 850,
+    "articles_error": 0,
+    "merged_claims": 3786,
+    "zero_claim_articles": 103,
+    "articles_with_warnings": 277,
+    "suspicious_food_entities": 0,
+    "over_specific_food_entities": 159
+  },
+  "zero_claim_pmids": [
+    "23759244",
+    "39134613",
+    "37612360",
+    "1351600",
+    "39458351",
+    "20653487",
+    "35276932",
+    "24375756",
+    "34002289",
+    "27733354",
+    "37603170",
+    "34113994",
+    "12468622",
+    "35028045",
+    "12678571",
+    "41727680",
+    "41727485",
+    "41693955",
+    "41729372",
+    "41713504",
+    "36360067",
+    "41716273",
+    "31479620",
+    "27306058",
+    "29397563",
+    "31984784",
+    "24518826",
+    "39151887",
+    "40037297",
+    "29580412",
+    "33791038",
+    "18199517",
+    "33075366",
+    "38360946",
+    "39383602",
+    "39165219",
+    "39002609",
+    "38316343",
+    "37033254",
+    "38432237",
+    "16610575",
+    "41672347",
+    "41725055",
+    "41721408",
+    "41683095",
+    "40997178",
+    "40371453",
+    "41716838",
+    "41716005",
+    "41714079",
+    "41714082",
+    "27711063",
+    "35134709",
+    "15034190",
+    "33464402",
+    "33393629",
+    "27920719",
+    "24341155",
+    "31844936",
+    "31384329",
+    "29120790",
+    "23442391",
+    "38271205",
+    "40486958",
+    "37083813",
+    "38271203",
+    "37062834",
+    "38149413",
+    "39295904",
+    "38393607",
+    "34557508",
+    "16647412",
+    "27741153",
+    "37106999",
+    "39309142",
+    "38569469",
+    "34828920",
+    "25580813",
+    "40307477",
+    "33251370",
+    "36514754",
+    "36160237",
+    "33557521",
+    "38278378",
+    "35606889",
+    "36432734",
+    "37538862",
+    "12556948",
+    "27998788",
+    "36200338",
+    "38538520",
+    "30582346",
+    "40914516",
+    "30208667",
+    "33751986",
+    "34748451",
+    "28863341",
+    "41760689",
+    "36657442",
+    "30521852",
+    "37713453",
+    "33336970",
+    "33569911"
+  ],
+  "failed_pmids": [],
+  "warnings_by_pmid": {
+    "34139746": [
+      "Skipped claim for PMID 34139746: out-of-scope claim 'glucose placebo' -> 'relative abundance of bifidobacteria'"
+    ],
+    "39134613": [
+      "Skipped claim for PMID 39134613: out-of-scope claim 'weight-adjusted waist index (WWI)' -> 'cardiovascular disease (CVD)'",
+      "Skipped claim for PMID 39134613: out-of-scope claim 'weight-adjusted waist index (WWI) highest quartile vs lowest quartile' -> 'cardiovascular disease (CVD)'",
+      "Skipped claim for PMID 39134613: out-of-scope claim 'weight-adjusted waist index (WWI)' -> 'heart failure (HF)'",
+      "Skipped claim for PMID 39134613: out-of-scope claim 'weight-adjusted waist index (WWI) highest quartile vs lowest quartile' -> 'heart failure (HF)'",
+      "Skipped claim for PMID 39134613: out-of-scope claim 'weight-adjusted waist index (WWI)' -> 'CVD mortality'",
+      "Skipped claim for PMID 39134613: out-of-scope claim 'weight-adjusted waist index (WWI) highest quartile vs lowest quartile' -> 'CVD mortality'",
+      "Skipped claim for PMID 39134613: out-of-scope claim 'weight-adjusted waist index (WWI)' -> 'all-cause mortality'",
+      "Skipped claim for PMID 39134613: out-of-scope claim 'weight-adjusted waist index (WWI) highest quartile vs lowest quartile' -> 'all-cause mortality'",
+      "Skipped claim for PMID 39134613: out-of-scope claim 'weight-adjusted waist index (WWI)' -> 'adverse outcomes prediction (vs BMI)'"
+    ],
+    "39458351": [
+      "Skipped claim for PMID 39458351: out-of-scope claim 'W. cibaria VR81 and L. plantarum R12 (neutralized cell-free supernatant)' -> 'antimicrobial activity against L. innocua and P. aeruginosa'",
+      "Skipped claim for PMID 39458351: out-of-scope claim 'W. cibaria VR81 and L. plantarum R12' -> 'acidic resilience'",
+      "Skipped claim for PMID 39458351: out-of-scope claim 'W. cibaria VR81 and L. plantarum R12' -> 'osmotic tolerance'",
+      "Skipped claim for PMID 39458351: out-of-scope claim 'W. cibaria VR81 and L. plantarum R12' -> 'gastrointestinal tolerance'",
+      "Skipped claim for PMID 39458351: out-of-scope claim 'W. cibaria VR81 and L. plantarum R12' -> 'aggregation and adhesion profile'",
+      "Skipped claim for PMID 39458351: out-of-scope claim 'W. cibaria VR81 and L. plantarum R12' -> 'exopolysaccharide production'",
+      "Skipped claim for PMID 39458351: out-of-scope claim 'W. cibaria VR81 and L. plantarum R12 (roseoflavin selection)' -> 'riboflavin production'",
+      "Skipped claim for PMID 39458351: out-of-scope claim 'W. cibaria VR81 and L. plantarum R12 (single and co-culture)' -> 'quinoa fermentation acidification'",
+      "Skipped claim for PMID 39458351: out-of-scope claim 'L. plantarum R12 starter culture' -> 'Listeria innocua inhibition in vivo'",
+      "Skipped claim for PMID 39458351: out-of-scope claim 'L. plantarum R12d and W. cibaria VR81d co-culture' -> 'riboflavin production in fermented quinoa'"
+    ],
+    "40944203": [
+      "Skipped claim for PMID 40944203: out-of-scope claim 'Carbohydrate Pudding' -> 'TNF-α'",
+      "Skipped claim for PMID 40944203: out-of-scope claim 'Carbohydrate Pudding' -> 'TNF-α/IL-10 ratio'",
+      "Skipped claim for PMID 40944203: out-of-scope claim 'Resistance and plyometric exercise training' -> 'CRP'",
+      "Skipped claim for PMID 40944203: out-of-scope claim 'Resistance and plyometric exercise training' -> 'IL-1ra'",
+      "Skipped claim for PMID 40944203: out-of-scope claim 'Resistance and plyometric exercise training' -> 'IL-1β'",
+      "Skipped claim for PMID 40944203: out-of-scope claim 'Resistance and plyometric exercise training' -> 'IL-1ra baseline concentration'",
+      "Skipped claim for PMID 40944203: out-of-scope claim 'Resistance and plyometric exercise training' -> 'IL-10 baseline concentration'",
+      "Skipped claim for PMID 40944203: out-of-scope claim 'Resistance and plyometric exercise training' -> 'CRP baseline concentration'"
+    ],
+    "41723426": [
+      "Skipped claim for PMID 41723426: out-of-scope claim 'self-assembling peptide' -> 'white_spot_lesion_score'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'NovaMin' -> 'white_spot_lesion_score'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'nano-agents' -> 'white_spot_lesion_score'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'casein phosphopeptide-amorphous calcium phosphate (CPP-ACP)' -> 'white_spot_lesion_score'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'xylitol varnish' -> 'white_spot_lesion_score'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'fluoride varnish' -> 'white_spot_lesion_prevalence'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'fluoride combinations' -> 'white_spot_lesion_prevalence'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'casein phosphopeptide-amorphous calcium phosphate (CPP-ACP)' -> 'white_spot_lesion_prevalence'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'resin infiltration' -> 'white_spot_lesion_prevalence'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'laser' -> 'white_spot_lesion_score'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'chlorhexidine (CHX)' -> 'white_spot_lesion_score'",
+      "Skipped claim for PMID 41723426: out-of-scope claim 'fluoride toothpaste' -> 'white_spot_lesion_size'"
+    ],
+    "20653487": [
+      "Skipped claim for PMID 20653487: out-of-scope claim 'Vitamin D3' -> 'SCORAD'",
+      "Skipped claim for PMID 20653487: out-of-scope claim 'Vitamin E (synthetic all-rac-α-tocopherol)' -> 'SCORAD'",
+      "Skipped claim for PMID 20653487: out-of-scope claim 'Vitamin D3 + Vitamin E (synthetic all-rac-α-tocopherol) combination' -> 'SCORAD'",
+      "Skipped claim for PMID 20653487: out-of-scope claim 'Vitamin E (synthetic all-rac-α-tocopherol)' -> 'SCORAD, intensity, objective, and extent'",
+      "Skipped claim for PMID 20653487: out-of-scope claim 'Vitamin D3 + Vitamin E (synthetic all-rac-α-tocopherol) combination' -> 'Objective SCORAD'"
+    ],
+    "24375756": [
+      "Skipped claim for PMID 24375756: out-of-scope claim 'High-fluoride toothpaste (5000 ppm)' -> 'White spot lesion prevalence'"
+    ],
+    "34002289": [
+      "Skipped claim for PMID 34002289: out-of-scope claim 'Roux-en-Y gastric bypass' -> 'weight_loss'",
+      "Skipped claim for PMID 34002289: out-of-scope claim 'laparoscopic sleeve gastrectomy' -> 'weight_loss'"
+    ],
+    "37603170": [
+      "Skipped claim for PMID 37603170: unsupported subject type 'other' for 'resin infiltration'",
+      "Skipped claim for PMID 37603170: unsupported subject type 'other' for 'fluoride toothpaste with fluoride varnish'",
+      "Skipped claim for PMID 37603170: unsupported subject type 'other' for 'CPP-ACP mousse'",
+      "Skipped claim for PMID 37603170: unsupported subject type 'other' for 'fluoride toothpaste'"
+    ],
+    "34113994": [
+      "Skipped claim for PMID 34113994: out-of-scope claim 'vitamin D food fortification' -> 'serum_25_hydroxyvitamin_D'",
+      "Skipped claim for PMID 34113994: out-of-scope claim 'cholecalciferol fortification' -> 'serum_25_hydroxyvitamin_D'",
+      "Skipped claim for PMID 34113994: out-of-scope claim 'vitamin D fortification at baseline <50 nmol/L' -> 'serum_25_hydroxyvitamin_D'",
+      "Skipped claim for PMID 34113994: out-of-scope claim 'vitamin D fortification dose ≥10 μg/d' -> 'serum_25_hydroxyvitamin_D'",
+      "Skipped claim for PMID 34113994: out-of-scope claim 'calcium co-administration ≥500 mg/d' -> 'serum_25_hydroxyvitamin_D'",
+      "Skipped claim for PMID 34113994: out-of-scope claim 'vitamin D fortification' -> 'serum_25_hydroxyvitamin_D'"
+    ],
+    "12468622": [
+      "Skipped claim for PMID 12468622: out-of-scope claim 'functional foods' -> 'health_benefits'",
+      "Skipped claim for PMID 12468622: out-of-scope claim 'functional foods' -> 'overall_health'"
+    ],
+    "32859329": [
+      "Skipped claim for PMID 32859329: out-of-scope claim 'Bacillus coagulans GBI-30 plus inulin' -> 'alanine aminotransferase (ALT)'",
+      "Skipped claim for PMID 32859329: out-of-scope claim 'Bacillus coagulans GBI-30 plus inulin' -> 'γ glutamine transaminase (γGT)'",
+      "Skipped claim for PMID 32859329: out-of-scope claim 'Bacillus coagulans GBI-30 plus inulin' -> 'tumor necrosis factor-α (TNF-α)'",
+      "Skipped claim for PMID 32859329: out-of-scope claim 'Bacillus coagulans GBI-30 plus inulin' -> 'nuclear factor-κB (NF-κB) activity'",
+      "Skipped claim for PMID 32859329: out-of-scope claim 'Bacillus coagulans GBI-30 plus inulin' -> 'hepatic steatosis score'",
+      "Skipped claim for PMID 32859329: out-of-scope claim 'Bacillus coagulans GBI-30 plus inulin' -> 'cardiovascular risk factors'",
+      "Used zero-claim retry after post-processing for PMID 32859329: 5 claims"
+    ],
+    "12678571": [
+      "Skipped claim for PMID 12678571: out-of-scope claim 'fish oils' -> 'anti-inflammatory effects'",
+      "Skipped claim for PMID 12678571: out-of-scope claim 'fish oils' -> 'cardiovascular disease risk'",
+      "Skipped claim for PMID 12678571: out-of-scope claim 'fish oils' -> 'pro-inflammatory cytokines'",
+      "Skipped claim for PMID 12678571: out-of-scope claim 'fish oils' -> 'cartilage degradative enzymes'",
+      "Skipped claim for PMID 12678571: out-of-scope claim 'fish oils' -> 'n-6 eicosanoid production'"
+    ],
+    "41717546": [
+      "Skipped claim for PMID 41717546: out-of-scope claim 'GLP-1 receptor agonists combined with ESG' -> 'weight_loss'",
+      "Skipped claim for PMID 41717546: out-of-scope claim 'GLP-1 RAs and tirzepatide in post-bariatric surgery patients' -> 'weight_loss'",
+      "Skipped claim for PMID 41717546: out-of-scope claim 'Non-GLP-1 RA anti-obesity medications combined with bariatric interventions' -> 'weight_loss'",
+      "Skipped claim for PMID 41717546: out-of-scope claim 'Other anti-obesity medications (topiramate, phentermine, orlistat, bupropion/naltrexone)' -> 'weight_loss'"
+    ],
+    "41518731": [
+      "Skipped claim for PMID 41518731: out-of-scope claim 'butter' -> 'type_2_diabetes'"
+    ],
+    "41599407": [
+      "Skipped claim for PMID 41599407: out-of-scope claim 'natto' -> 'postprandial_blood_glucose'",
+      "Skipped claim for PMID 41599407: out-of-scope claim 'sourdough breads' -> 'postprandial_blood_glucose'"
+    ],
+    "41632429": [
+      "Skipped claim for PMID 41632429: out-of-scope claim 'Lactobacillus johnsonii RS-7' -> 'acid resistance'"
+    ],
+    "41729372": [
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'microbial_diversity'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'microbial_composition'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'proteobacteria_abundance'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'fusobacteria_abundance'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'butyrate_producing_firmicutes'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'bile_acid_levels'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'short_chain_fatty_acids'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'body_weight'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'blood_glucose'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'lipid_metabolism'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'dyslipidemia'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'bariatric surgery' -> 'abdominal_pain'",
+      "Skipped claim for PMID 41729372: out-of-scope claim 'gut microbiota dysbiosis' -> 'abdominal_pain'"
+    ],
+    "41527717": [
+      "Skipped claim for PMID 41527717: out-of-scope claim 'β-casein' -> 'bioactive_peptide_formation'"
+    ],
+    "41713504": [
+      "Skipped claim for PMID 41713504: out-of-scope claim 'SGLT2 inhibitors' -> 'serum_uric_acid'",
+      "Skipped claim for PMID 41713504: out-of-scope claim 'SGLT2 inhibitors' -> 'gout_risk'",
+      "Skipped claim for PMID 41713504: out-of-scope claim 'SGLT2 inhibitors' -> 'glycaemic_control'",
+      "Skipped claim for PMID 41713504: out-of-scope claim 'IL-1β targeting' -> 'gout_and_T2DM_management'",
+      "Skipped claim for PMID 41713504: out-of-scope claim 'elevated uric acid' -> 'glucose_metabolism'",
+      "Skipped claim for PMID 41713504: out-of-scope claim 'elevated uric acid' -> 'lipid_metabolism'",
+      "Skipped claim for PMID 41713504: out-of-scope claim 'elevated uric acid' -> 'NLRP3_inflammasome'",
+      "Skipped claim for PMID 41713504: out-of-scope claim 'gut microbiota dysbiosis' -> 'uric_acid_excretion'",
+      "Skipped claim for PMID 41713504: out-of-scope claim 'gut microbiota dysbiosis' -> 'insulin_resistance'",
+      "Skipped claim for PMID 41713504: out-of-scope claim 'dietary adjustments' -> 'gout_and_T2DM_management'",
+      "Skipped claim for PMID 41713504: out-of-scope claim 'gut microbiota interventions' -> 'gout_and_T2DM_management'"
+    ],
+    "41539774": [
+      "Skipped claim for PMID 41539774: out-of-scope claim 'legumes' -> 'insulin_sensitivity'",
+      "Skipped claim for PMID 41539774: out-of-scope claim 'legumes' -> 'lipid_profiles'",
+      "Skipped claim for PMID 41539774: out-of-scope claim 'legumes' -> 'chronic_inflammation'",
+      "Skipped claim for PMID 41539774: out-of-scope claim 'legumes' -> 'AMPK_activation'",
+      "Skipped claim for PMID 41539774: out-of-scope claim 'legumes' -> 'PI3K/Akt_modulation'",
+      "Skipped claim for PMID 41539774: out-of-scope claim 'legumes' -> 'inflammatory_pathways'"
+    ],
+    "31479620": [
+      "Skipped claim for PMID 31479620: out-of-scope claim 'fermentable carbohydrates' -> 'gut_microbiota'",
+      "Skipped claim for PMID 31479620: out-of-scope claim 'high animal protein diet' -> 'gut_microbiota'",
+      "Skipped claim for PMID 31479620: out-of-scope claim 'high fat diet' -> 'gut_microbiota'",
+      "Skipped claim for PMID 31479620: out-of-scope claim 'diet-derived microbial metabolites' -> 'cardiometabolic_disease_risk'",
+      "Skipped claim for PMID 31479620: out-of-scope claim 'dietary interventions' -> 'gut_microbiota'"
+    ],
+    "27306058": [
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'gut microbial diversity'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'species relative abundance'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'Faecalibacterium prausnitzii relative abundance'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'microbial functional modules'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'microbial energy source assimilation potential'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'aerobic respiration potential'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'protein degradation to putrefaction potential'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'amino acid utilization potential'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'fatty acid utilization potential'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'insulin sensitivity'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'glucose homeostasis'",
+      "Skipped claim for PMID 27306058: out-of-scope claim 'RYGB surgery' -> 'weight'"
+    ],
+    "29397563": [
+      "Skipped claim for PMID 29397563: out-of-scope claim 'obesity' -> 'insulin_resistance'",
+      "Skipped claim for PMID 29397563: out-of-scope claim 'insulin_resistance' -> 'cardiometabolic_complications'",
+      "Skipped claim for PMID 29397563: out-of-scope claim 'obesity' -> 'adipose_tissue_function'",
+      "Skipped claim for PMID 29397563: out-of-scope claim 'altered_adipose_organ_function' -> 'obesity_pathogenesis'",
+      "Skipped claim for PMID 29397563: out-of-scope claim 'redox_balance_changes' -> 'insulin_sensitivity'",
+      "Skipped claim for PMID 29397563: out-of-scope claim 'mitochondrial_dysfunction' -> 'metabolic_alterations'",
+      "Skipped claim for PMID 29397563: out-of-scope claim 'gut_microbiota' -> 'insulin_action'"
+    ],
+    "10390133": [
+      "Skipped claim for PMID 10390133: out-of-scope claim 'meat' -> 'tissue-type plasminogen activator antigen (t-PA-Ag)'",
+      "Skipped claim for PMID 10390133: out-of-scope claim 'fish' -> 'tissue-type plasminogen activator antigen (t-PA-Ag)'"
+    ],
+    "39151887": [
+      "Skipped claim for PMID 39151887: unsupported subject type 'disease' for 'Hypertension'",
+      "Skipped claim for PMID 39151887: unsupported subject type 'disease' for 'Type 2 diabetes mellitus'",
+      "Skipped claim for PMID 39151887: unsupported subject type 'disease' for 'Type 2 diabetes mellitus'",
+      "Skipped claim for PMID 39151887: unsupported subject type 'disease' for 'Obesity'",
+      "Skipped claim for PMID 39151887: unsupported subject type 'disease' for 'Hypertension'",
+      "Skipped claim for PMID 39151887: unsupported subject type 'disease' for 'Hypercholesterolemia'",
+      "Skipped claim for PMID 39151887: unsupported subject type 'disease' for 'MASLD (Metabolic dysfunction-associated steatotic liver disease)'",
+      "Skipped claim for PMID 39151887: unsupported subject type 'disease' for 'Metabolic diseases (T2DM, hypertension, obesity, hypercholesterolemia, MASLD)'"
+    ],
+    "40037297": [
+      "Skipped claim for PMID 40037297: out-of-scope claim 'gut microbiome' -> 'enteroendocrine_cell_function'",
+      "Skipped claim for PMID 40037297: out-of-scope claim 'commensal bacteria' -> 'glucagon_like_peptide_1'",
+      "Skipped claim for PMID 40037297: out-of-scope claim 'commensal bacteria' -> 'peptide_YY'",
+      "Skipped claim for PMID 40037297: out-of-scope claim 'short_chain_fatty_acids' -> 'enteroendocrine_cell_signaling'",
+      "Skipped claim for PMID 40037297: out-of-scope claim 'short_chain_fatty_acids' -> 'metabolism'",
+      "Skipped claim for PMID 40037297: out-of-scope claim 'short_chain_fatty_acids' -> 'gut_motility'",
+      "Skipped claim for PMID 40037297: out-of-scope claim 'short_chain_fatty_acids' -> 'immune_responses'",
+      "Skipped claim for PMID 40037297: out-of-scope claim 'gut microbiome' -> 'obesity'",
+      "Skipped claim for PMID 40037297: out-of-scope claim 'gut microbiome' -> 'diabetes'"
+    ],
+    "39720042": [
+      "Skipped claim for PMID 39720042: out-of-scope claim 'Indian gooseberry fruit homogenate' -> 'total phenolic content'",
+      "Skipped claim for PMID 39720042: out-of-scope claim 'Indian gooseberry fruit homogenate' -> 'total flavonoid content'",
+      "Skipped claim for PMID 39720042: out-of-scope claim 'Indian gooseberry fruit homogenate' -> 'ascorbic acid content'"
+    ],
+    "39383602": [
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'peripheral insulin sensitivity'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'working memory'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'long-term memory'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'PSD-95 level'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'neuroinflammatory factors'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'malondialdehyde (MDA)'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> '8-hydroxy-2'-deoxyguanosine (8-OHdG)'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'FGFR1/AMPK/GLUT4 signaling pathway'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'cognitive function'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'synaptic plasticity'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'neuroinflammatory factors'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'reactive oxygen species regulating enzymes (Sod1, Sod2, Nox4)'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'FGFR1/AMPK/GLUT4 signaling pathway'",
+      "Skipped claim for PMID 39383602: out-of-scope claim 'Methionine restriction diet' -> 'brain glucose metabolism'"
+    ],
+    "39165219": [
+      "Skipped claim for PMID 39165219: out-of-scope claim 'EAE disease model' -> 'Srebf1 gene expression'",
+      "Skipped claim for PMID 39165219: out-of-scope claim 'EAE disease model' -> 'Ldlr gene expression'",
+      "Skipped claim for PMID 39165219: out-of-scope claim 'EAE disease model' -> 'Soat1 gene expression'",
+      "Skipped claim for PMID 39165219: out-of-scope claim 'EAE disease model' -> 'Abca1 gene expression'",
+      "Skipped claim for PMID 39165219: out-of-scope claim 'EAE disease model' -> 'Lrp1 gene expression'",
+      "Skipped claim for PMID 39165219: out-of-scope claim 'EAE disease model' -> 'Npc1 gene expression'"
+    ],
+    "39002609": [
+      "Skipped claim for PMID 39002609: out-of-scope claim 'insulin/IGF-1/GH axis dysregulation' -> 'amyloid_beta_production'",
+      "Skipped claim for PMID 39002609: out-of-scope claim 'insulin resistance and dysregulated IGF-1 signaling' -> 'atherosclerosis'",
+      "Skipped claim for PMID 39002609: out-of-scope claim 'amyloid-beta 1-40' -> 'plaque_destabilization'"
+    ],
+    "38316343": [
+      "Skipped claim for PMID 38316343: out-of-scope claim 'precision nutrition interventions' -> 'obesity'",
+      "Skipped claim for PMID 38316343: out-of-scope claim 'single nucleotide polymorphisms' -> 'dietary_intervention_response'",
+      "Skipped claim for PMID 38316343: out-of-scope claim 'epigenetic modulation' -> 'obesity_risk'"
+    ],
+    "37033254": [
+      "Skipped claim for PMID 37033254: out-of-scope claim 'gut_microbiome' -> 'type_2_diabetes_mellitus'",
+      "Skipped claim for PMID 37033254: out-of-scope claim 'gut_microbiome' -> 'antidiabetic_drug_response'",
+      "Skipped claim for PMID 37033254: out-of-scope claim 'gut_microbiome' -> 'drug_response_variability'"
+    ],
+    "41687433": [
+      "Skipped claim for PMID 41687433: out-of-scope claim 'microbiota modulation' -> 'memory'",
+      "Skipped claim for PMID 41687433: out-of-scope claim 'microbiota modulation' -> 'executive_function'",
+      "Skipped claim for PMID 41687433: out-of-scope claim 'microbiota modulation' -> 'global_cognition'",
+      "Skipped claim for PMID 41687433: out-of-scope claim 'microbiota modulation' -> 'microbial_diversity'",
+      "Skipped claim for PMID 41687433: out-of-scope claim 'microbiota modulation' -> 'short_chain_fatty_acid_production'",
+      "Skipped claim for PMID 41687433: out-of-scope claim 'microbiota modulation' -> 'neuroinflammatory_markers'",
+      "Skipped claim for PMID 41687433: out-of-scope claim 'microbiota modulation' -> 'cognitive_function'",
+      "Used zero-claim retry after post-processing for PMID 41687433: 1 claims"
+    ],
+    "37297345": [
+      "Skipped claim for PMID 37297345: out-of-scope claim 'fermentation process' -> 'phytochemical_content'"
+    ],
+    "41080326": [
+      "Skipped claim for PMID 41080326: out-of-scope claim 'high-fiber diet' -> 'fasting_glucose'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'high-fiber diet' -> 'glycated_hemoglobin'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'high-fiber diet' -> 'triglycerides'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'high-fiber diet' -> 'low_density_lipoprotein_cholesterol'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'high-fiber diet' -> 'high_density_lipoprotein_cholesterol'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'high-fiber diet' -> 'short_chain_fatty_acid_producing_bacteria'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'Mediterranean-style diet' -> 'tumor_necrosis_factor_alpha'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'Mediterranean-style diet' -> 'interleukin_6'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'Green-Mediterranean diet' -> 'weight'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'Green-Mediterranean diet' -> 'insulin_resistance'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'Green-Mediterranean diet' -> 'framingham_risk_score'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'microbiota-based interventions' -> 'glycated_hemoglobin'",
+      "Skipped claim for PMID 41080326: out-of-scope claim 'microbiota-based interventions' -> 'cardiovascular_risk'"
+    ],
+    "41464961": [
+      "Skipped claim for PMID 41464961: out-of-scope claim 'GABA' -> 'blood_pressure'",
+      "Skipped claim for PMID 41464961: out-of-scope claim 'GABA' -> 'anxiety'",
+      "Skipped claim for PMID 41464961: out-of-scope claim 'GABA' -> 'depression'",
+      "Skipped claim for PMID 41464961: out-of-scope claim 'GABA' -> 'neuroprotection'"
+    ],
+    "33946303": [
+      "Skipped claim for PMID 33946303: out-of-scope claim 'lactic acid-producing bacteria' -> 'gut microbiota composition'",
+      "Skipped claim for PMID 33946303: out-of-scope claim 'lactic acid-producing bacteria' -> 'immunomodulatory function'",
+      "Skipped claim for PMID 33946303: out-of-scope claim 'antioxidant compounds' -> 'anti-inflammatory activity'"
+    ],
+    "40573100": [
+      "Skipped claim for PMID 40573100: out-of-scope claim 'natto' -> 'glucose_tolerance'",
+      "Skipped claim for PMID 40573100: out-of-scope claim 'natto' -> 'lipid_profile'",
+      "Skipped claim for PMID 40573100: out-of-scope claim 'natto' -> 'angiotensin_converting_enzyme_activity'"
+    ],
+    "41725055": [
+      "Skipped claim for PMID 41725055: out-of-scope claim 'PGE2-EP4 signaling axis' -> 'insulin_resistance'",
+      "Skipped claim for PMID 41725055: out-of-scope claim 'COX-2-derived PGE2 elevation' -> 'gut_microbiota'",
+      "Skipped claim for PMID 41725055: out-of-scope claim 'COX-2-derived PGE2 elevation' -> 'SCFA_producing_taxa'",
+      "Skipped claim for PMID 41725055: out-of-scope claim 'COX-2-derived PGE2 elevation' -> 'Treg_homeostasis'",
+      "Skipped claim for PMID 41725055: out-of-scope claim 'PGE2-EP4 pathway dysregulation' -> 'intestinal_integrity'",
+      "Skipped claim for PMID 41725055: out-of-scope claim 'intestinal integrity loss' -> 'metabolic_endotoxemia'",
+      "Skipped claim for PMID 41725055: out-of-scope claim 'chronic low-grade inflammation' -> 'insulin_resistance'",
+      "Skipped claim for PMID 41725055: out-of-scope claim 'EP4 antagonists' -> 'metabolic_balance'",
+      "Skipped claim for PMID 41725055: out-of-scope claim 'microbiome restoration' -> 'metabolic_balance'"
+    ],
+    "41721408": [
+      "Skipped claim for PMID 41721408: out-of-scope claim 'omega-6/omega-3 polyunsaturated fatty acid imbalance' -> 'inflammation'",
+      "Skipped claim for PMID 41721408: out-of-scope claim 'elevated saturated fatty acid intake' -> 'inflammation'",
+      "Skipped claim for PMID 41721408: out-of-scope claim 'obesity' -> 'inflammation'",
+      "Skipped claim for PMID 41721408: out-of-scope claim 'obesity' -> 'fatty_acid_metabolism'"
+    ],
+    "41707791": [
+      "Skipped claim for PMID 41707791: out-of-scope claim 'immobilized_lipase_oral_enzyme_replacement_systems' -> 'exocrine_pancreatic_insufficiency'",
+      "Skipped claim for PMID 41707791: out-of-scope claim 'immobilized_lipase_lipid_removal_devices' -> 'dyslipidemia'",
+      "Skipped claim for PMID 41707791: out-of-scope claim 'immobilized_lipase_lipid_biosensors' -> 'lipid_levels'",
+      "Skipped claim for PMID 41707791: out-of-scope claim 'immobilized_lipase_ester_based_prodrugs' -> 'prodrug_activation'",
+      "Skipped claim for PMID 41707791: out-of-scope claim 'immobilized_lipase_structured_lipids' -> 'medical_nutrition'",
+      "Skipped claim for PMID 41707791: out-of-scope claim 'immobilized_lipase_support_materials' -> 'catalytic_activity_regiospecificity_stability_biocompatibility'"
+    ],
+    "41555705": [
+      "Skipped claim for PMID 41555705: out-of-scope claim 'high-fat and high-sugar diets, xenobiotics, and artificial additives' -> 'dysbiosis'",
+      "Skipped claim for PMID 41555705: out-of-scope claim 'infant microbiome composition and diversity' -> 'immune_development'",
+      "Skipped claim for PMID 41555705: out-of-scope claim 'infant microbiome composition and diversity' -> 'metabolic_processes'",
+      "Skipped claim for PMID 41555705: out-of-scope claim 'infant microbiome composition and diversity' -> 'neurodevelopmental_processes'",
+      "Skipped claim for PMID 41555705: out-of-scope claim 'gut microbiome' -> 'intergenerational_malnutrition'",
+      "Skipped claim for PMID 41555705: out-of-scope claim 'exclusive breastfeeding' -> 'infant_health'",
+      "Skipped claim for PMID 41555705: out-of-scope claim 'complementary feeding practices' -> 'microbial_maturation'",
+      "Skipped claim for PMID 41555705: out-of-scope claim 'diet-based interventions in pregnancy' -> 'microbiome_function'",
+      "Skipped claim for PMID 41555705: out-of-scope claim 'diet-based interventions in pregnancy' -> 'disease_prevention'"
+    ],
+    "40371453": [
+      "Skipped claim for PMID 40371453: out-of-scope claim 'fat reduction in frozen desserts' -> 'texture_quality'",
+      "Skipped claim for PMID 40371453: out-of-scope claim 'fat reduction in frozen desserts' -> 'chalkiness'",
+      "Skipped claim for PMID 40371453: out-of-scope claim 'fat reduction in frozen desserts' -> 'flavor_quality'",
+      "Skipped claim for PMID 40371453: out-of-scope claim 'fat replacers' -> 'texture_quality'",
+      "Skipped claim for PMID 40371453: out-of-scope claim 'fat replacers' -> 'body_weight'"
+    ],
+    "41716838": [
+      "Skipped claim for PMID 41716838: out-of-scope claim 'bile_acid_metabolism_modulation' -> 'nutrient_utilization'",
+      "Skipped claim for PMID 41716838: out-of-scope claim 'bile_acid_metabolism_modulation' -> 'gut_health'",
+      "Skipped claim for PMID 41716838: out-of-scope claim 'bile_acid_metabolism_modulation' -> 'feed_efficiency'",
+      "Skipped claim for PMID 41716838: out-of-scope claim 'bile_acid_metabolism' -> 'growth'",
+      "Skipped claim for PMID 41716838: out-of-scope claim 'bile_acid_metabolism' -> 'reproductive_performance'",
+      "Skipped claim for PMID 41716838: out-of-scope claim 'bile_acid_metabolism' -> 'gastrointestinal_health'",
+      "Skipped claim for PMID 41716838: out-of-scope claim 'precision_nutrition_strategies_regulating_bile_acid_metabolism' -> 'feed_conversion_efficiency'",
+      "Skipped claim for PMID 41716838: out-of-scope claim 'precision_nutrition_strategies_regulating_bile_acid_metabolism' -> 'environmental_waste'",
+      "Skipped claim for PMID 41716838: out-of-scope claim 'precision_nutrition_strategies_regulating_bile_acid_metabolism' -> 'animal_resilience'",
+      "Skipped claim for PMID 41716838: out-of-scope claim 'bile_acid_metabolism' -> 'gut_microbiota_composition'",
+      "Skipped claim for PMID 41716838: out-of-scope claim 'bile_acid_metabolism' -> 'nutrient_utilization'"
+    ],
+    "41693858": [
+      "Skipped claim for PMID 41693858: out-of-scope claim 'gut_microbiota_dysbiosis' -> 'endometriosis'",
+      "Skipped claim for PMID 41693858: out-of-scope claim 'gut_microbiota' -> 'estrogen_metabolism'",
+      "Skipped claim for PMID 41693858: out-of-scope claim 'gut_microbiota' -> 'lipid_metabolism'",
+      "Skipped claim for PMID 41693858: out-of-scope claim 'gut_microbiota' -> 'immunoinflammatory_response'",
+      "Skipped claim for PMID 41693858: out-of-scope claim 'dietary_intervention' -> 'endometriosis_symptoms'",
+      "Skipped claim for PMID 41693858: out-of-scope claim 'microbiota_transplantation' -> 'endometriosis_symptoms'"
+    ],
+    "41716005": [
+      "Skipped claim for PMID 41716005: out-of-scope claim 'tea polyphenols' -> 'energy_balance'",
+      "Skipped claim for PMID 41716005: out-of-scope claim 'tea polyphenols' -> 'gut_microbiota'",
+      "Skipped claim for PMID 41716005: out-of-scope claim 'tea polyphenols' -> 'short_chain_fatty_acids'",
+      "Skipped claim for PMID 41716005: out-of-scope claim 'tea polyphenols' -> 'secondary_bile_acids'",
+      "Skipped claim for PMID 41716005: out-of-scope claim 'tea polyphenols' -> 'central_appetite'",
+      "Skipped claim for PMID 41716005: out-of-scope claim 'tea polyphenols' -> 'fatty_acid_oxidation'",
+      "Skipped claim for PMID 41716005: out-of-scope claim 'tea polyphenols' -> 'AMPK_activation'"
+    ],
+    "39934501": [
+      "Skipped claim for PMID 39934501: out-of-scope claim 'biopolymer_encapsulation' -> 'bioactive_molecule_absorption'",
+      "Skipped claim for PMID 39934501: out-of-scope claim 'biopolymer_encapsulation' -> 'probiotic_viability'",
+      "Skipped claim for PMID 39934501: out-of-scope claim 'biopolymer_encapsulation' -> 'colonic_absorption'",
+      "Skipped claim for PMID 39934501: out-of-scope claim 'biopolymer_encapsulation' -> 'antioxidant_level'"
+    ],
+    "41714079": [
+      "Skipped claim for PMID 41714079: out-of-scope claim 'Fecal microbiota transplantation' -> 'Hepatic encephalopathy recurrence'",
+      "Skipped claim for PMID 41714079: out-of-scope claim 'Fecal microbiota transplantation' -> 'Hospitalization rates'",
+      "Skipped claim for PMID 41714079: out-of-scope claim 'Fecal microbiota transplantation' -> 'Cognitive function'",
+      "Skipped claim for PMID 41714079: out-of-scope claim 'Fecal microbiota transplantation' -> 'Infection rates'",
+      "Skipped claim for PMID 41714079: out-of-scope claim 'Fecal microbiota transplantation' -> 'Short-term survival'",
+      "Skipped claim for PMID 41714079: out-of-scope claim 'Fecal microbiota transplantation' -> 'Intestinal permeability'",
+      "Skipped claim for PMID 41714079: out-of-scope claim 'Fecal microbiota transplantation' -> 'Bile acid signatures'",
+      "Skipped claim for PMID 41714079: out-of-scope claim 'Fecal microbiota transplantation' -> 'Hepatic transcriptomics'",
+      "Skipped claim for PMID 41714079: out-of-scope claim 'Fecal microbiota transplantation' -> 'MRI-PDFF (magnetic resonance imaging-proton density fat fraction)'",
+      "Skipped claim for PMID 41714079: out-of-scope claim 'Fecal microbiota transplantation' -> 'Insulin resistance'"
+    ],
+    "41714082": [
+      "Skipped claim for PMID 41714082: out-of-scope claim 'gut microbiome' -> 'cardiovascular health'",
+      "Skipped claim for PMID 41714082: out-of-scope claim 'gut microbial metabolites' -> 'inflammation'",
+      "Skipped claim for PMID 41714082: out-of-scope claim 'gut microbial metabolites' -> 'lipid metabolism'",
+      "Skipped claim for PMID 41714082: out-of-scope claim 'dysbiosis' -> 'atherosclerosis'",
+      "Skipped claim for PMID 41714082: out-of-scope claim 'dysbiosis' -> 'hypertension'",
+      "Skipped claim for PMID 41714082: out-of-scope claim 'dysbiosis' -> 'heart failure'",
+      "Skipped claim for PMID 41714082: out-of-scope claim 'microbiome-based interventions' -> 'cardiovascular disease prevention and treatment'"
+    ],
+    "27711063": [
+      "Skipped claim for PMID 27711063: out-of-scope claim 'gut_microbiota' -> 'immune_system_function'",
+      "Skipped claim for PMID 27711063: out-of-scope claim 'gut_microbiota' -> 'hormone_system_function'",
+      "Skipped claim for PMID 27711063: out-of-scope claim 'gut_microbiota' -> 'host_metabolism'",
+      "Skipped claim for PMID 27711063: out-of-scope claim 'gut_microbiota' -> 'brain_function'",
+      "Skipped claim for PMID 27711063: out-of-scope claim 'gut_microbiota' -> 'obesity'",
+      "Skipped claim for PMID 27711063: out-of-scope claim 'gut_microbiota' -> 'inflammatory_diseases'",
+      "Skipped claim for PMID 27711063: out-of-scope claim 'gut_microbiota' -> 'neurodevelopmental_disorders'",
+      "Skipped claim for PMID 27711063: out-of-scope claim 'gut_microbiota' -> 'behavioral_abnormalities'"
+    ],
+    "27375596": [
+      "Skipped claim for PMID 27375596: out-of-scope claim 'biogenic amines' -> 'allergies'",
+      "Skipped claim for PMID 27375596: out-of-scope claim 'biogenic amines' -> 'hypertensive_crises'",
+      "Skipped claim for PMID 27375596: out-of-scope claim 'biogenic amines' -> 'headache'",
+      "Skipped claim for PMID 27375596: missing legacy direction for 'encrypted_peptides_from_fermented_food' -> 'mood'",
+      "Skipped claim for PMID 27375596: missing legacy direction for 'encrypted_peptides_from_fermented_food' -> 'food_intake'"
+    ],
+    "15034190": [
+      "Skipped claim for PMID 15034190: out-of-scope claim 'nitroglycerine (NO donor)' -> 'bone loss'",
+      "Skipped claim for PMID 15034190: out-of-scope claim 'bisphosphonate therapy' -> 'LDL cholesterol'",
+      "Skipped claim for PMID 15034190: out-of-scope claim 'bisphosphonate therapy' -> 'HDL cholesterol'",
+      "Skipped claim for PMID 15034190: out-of-scope claim 'elevated LDL cholesterol' -> 'bone mineral density'",
+      "Skipped claim for PMID 15034190: out-of-scope claim 'low HDL cholesterol' -> 'bone mineral density'",
+      "Skipped claim for PMID 15034190: out-of-scope claim 'statins' -> 'bone formation'",
+      "Skipped claim for PMID 15034190: out-of-scope claim 'bisphosphonates' -> 'atherosclerosis'"
+    ],
+    "10584044": [
+      "Skipped claim for PMID 10584044: out-of-scope claim 'short- to medium-chain saturated fatty acids (4:0-10:0)' -> 'coronary heart disease (CHD) risk'",
+      "Skipped claim for PMID 10584044: out-of-scope claim 'longer-chain saturated fatty acids (12:0-18:0)' -> 'coronary heart disease (CHD) risk'",
+      "Skipped claim for PMID 10584044: out-of-scope claim 'stearic acid (18:0)' -> 'coronary heart disease (CHD) risk'",
+      "Skipped claim for PMID 10584044: out-of-scope claim 'polyunsaturated to saturated fat ratio' -> 'coronary heart disease (CHD) risk'",
+      "Skipped claim for PMID 10584044: out-of-scope claim 'red meat to poultry and fish consumption ratio' -> 'coronary heart disease (CHD) risk'"
+    ],
+    "31315227": [
+      "Skipped claim for PMID 31315227: out-of-scope claim 'dietary fiber' -> 'short_chain_fatty_acids'",
+      "Skipped claim for PMID 31315227: out-of-scope claim 'short_chain_fatty_acids' -> 'inflammation'",
+      "Skipped claim for PMID 31315227: out-of-scope claim 'short_chain_fatty_acids' -> 'lipid_homeostasis'",
+      "Skipped claim for PMID 31315227: out-of-scope claim 'gut_microbiota' -> 'chronic_diseases'",
+      "Skipped claim for PMID 31315227: out-of-scope claim 'diet quality' -> 'gut_microbiota'"
+    ],
+    "19776140": [
+      "Skipped claim for PMID 19776140: out-of-scope claim 'breath-hydrogen excretion' -> 'plasma glucagon-like peptide 1 (GLP-1)'",
+      "Skipped claim for PMID 19776140: out-of-scope claim 'breath-hydrogen excretion' -> 'postprandial plasma glucose'"
+    ],
+    "19085072": [
+      "Skipped claim for PMID 19085072: out-of-scope claim 'whey proteins, medium-chain fatty acids, calcium and other minerals' -> 'body fat and body mass'",
+      "Skipped claim for PMID 19085072: out-of-scope claim 'sphingolipids and their active metabolites' -> 'antimicrobial effects'"
+    ],
+    "31844936": [
+      "Skipped claim for PMID 31844936: out-of-scope claim 'GABA' -> 'blood_pressure'",
+      "Skipped claim for PMID 31844936: out-of-scope claim 'GABA' -> 'heart_rate'",
+      "Skipped claim for PMID 31844936: out-of-scope claim 'GABA' -> 'anxiety'",
+      "Skipped claim for PMID 31844936: out-of-scope claim 'GABA' -> 'pain'",
+      "Skipped claim for PMID 31844936: out-of-scope claim 'microbial GABA production' -> 'GABA availability'"
+    ],
+    "31384329": [
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'",
+      "Skipped claim for PMID 31384329: unsupported subject type 'medication' for 'beta_blockers'"
+    ],
+    "29120790": [
+      "Skipped claim for PMID 29120790: out-of-scope claim 'Fuzhuan brick tea polysaccharides' -> 'molecular weight'",
+      "Skipped claim for PMID 29120790: out-of-scope claim 'Fuzhuan brick tea polysaccharides' -> 'monosaccharide content'",
+      "Skipped claim for PMID 29120790: out-of-scope claim 'Fuzhuan brick tea polysaccharides' -> 'reducing sugars content'",
+      "Skipped claim for PMID 29120790: out-of-scope claim 'Fuzhuan brick tea polysaccharides' -> 'carbohydrate content'",
+      "Skipped claim for PMID 29120790: out-of-scope claim 'Fuzhuan brick tea polysaccharides' -> 'gut microbiota composition and abundance'",
+      "Skipped claim for PMID 29120790: out-of-scope claim 'Fuzhuan brick tea polysaccharides' -> 'short-chain fatty acids content'"
+    ],
+    "39719724": [
+      "Skipped claim for PMID 39719724: out-of-scope claim 'MN-Gup-GOS' -> 'Fasting blood glucose (FBG)'",
+      "Skipped claim for PMID 39719724: out-of-scope claim 'MN-Gup-GOS' -> 'Fasting blood glucose (FBG)'",
+      "Skipped claim for PMID 39719724: out-of-scope claim 'MN-Gup-GOS' -> 'Hemoglobin A1C (HbA1C)'",
+      "Skipped claim for PMID 39719724: out-of-scope claim 'MN-Gup-GOS' -> 'Serum insulin'",
+      "Skipped claim for PMID 39719724: out-of-scope claim 'MN-Gup-GOS' -> 'HOMA-IR'",
+      "Skipped claim for PMID 39719724: out-of-scope claim 'MN-Gup-GOS' -> 'GLP-1'",
+      "Skipped claim for PMID 39719724: out-of-scope claim 'MN-Gup-GOS' -> 'Gut microbiota'",
+      "Skipped claim for PMID 39719724: out-of-scope claim 'MN-Gup-GOS' -> 'Bile acids'",
+      "Skipped claim for PMID 39719724: out-of-scope claim 'Deoxycholic acid' -> 'Glycemic indicators'",
+      "Skipped claim for PMID 39719724: out-of-scope claim 'Lithocholic acid' -> 'Glycemic indicators'"
+    ],
+    "27810310": [
+      "Skipped suspicious food entity 'Placebo (microcrystalline cellulose)': Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 27810310: out-of-scope claim 'LU+B420 combination' -> 'body fat mass'",
+      "Skipped claim for PMID 27810310: out-of-scope claim 'Litesse Ultra polydextrose' -> 'body fat mass'",
+      "Skipped claim for PMID 27810310: out-of-scope claim 'LU+B420 combination' -> 'waist circumference'",
+      "Skipped claim for PMID 27810310: out-of-scope claim 'LU+B420 combination' -> 'blood zonulin'"
+    ],
+    "34923903": [
+      "Skipped claim for PMID 34923903: out-of-scope claim 'berberine alone or Prob+BBR' -> 'fecal Bifidobacterium breve level'"
+    ],
+    "30525950": [
+      "Skipped suspicious food entity 'Placebo (microcrystalline cellulose)': Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 30525950: out-of-scope claim 'Litesse® Ultra™ polydextrose (LU)' -> 'Christensenellaceae abundance'"
+    ],
+    "39738315": [
+      "Skipped claim for PMID 39738315: out-of-scope claim 'control' -> 'HDL cholesterol'"
+    ],
+    "29954454": [
+      "Skipped claim for PMID 29954454: out-of-scope claim 'galactooligosaccharides' -> 'sucralose:lactulose ratio (post-aspirin)'",
+      "Skipped claim for PMID 29954454: out-of-scope claim 'galactooligosaccharides' -> 'sucralose excretion'",
+      "Skipped claim for PMID 29954454: out-of-scope claim 'galactooligosaccharides' -> 'endotoxemia markers'"
+    ],
+    "30262813": [
+      "Skipped claim for PMID 30262813: out-of-scope claim 'Akkermansia spp.' -> 'weight'"
+    ],
+    "41547752": [
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11' -> 'Vineland-3 Adaptive Behavior Composite'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11-TMAX' -> 'Vineland-3 Adaptive Behavior Composite'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11 and K11-TMAX' -> 'Vineland-3 Adaptive Behavior Composite'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11 and K11-TMAX' -> 'ADOS-2 Calibrated Severity Score'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11 and K11-TMAX' -> 'Childhood Autism Rating Scale'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11 and K11-TMAX' -> 'insulin'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11 and K11-TMAX' -> 'C-reactive protein'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11 and K11-TMAX' -> 'serum cortisol'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11-TMAX' -> 'fecal calprotectin'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11 and K11-TMAX' -> 'Lactobacillus spp.'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11 and K11-TMAX' -> 'Escherichia coli'",
+      "Skipped claim for PMID 41547752: out-of-scope claim 'K11 and K11-TMAX' -> 'adverse events'",
+      "Used zero-claim retry after post-processing for PMID 41547752: 8 claims"
+    ],
+    "33024120": [
+      "Skipped claim for PMID 33024120: out-of-scope claim 'BBR-alone' -> 'HbA1c'",
+      "Skipped claim for PMID 33024120: out-of-scope claim 'BBR' -> 'gastrointestinal_side_effects'"
+    ],
+    "38271205": [
+      "Skipped suspicious food entity 'control_yogurt': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "35508529": [
+      "Skipped suspicious food entity 'placebo': Blacklisted food term: placebo; Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 35508529: out-of-scope claim 'placebo' -> 'insulin resistance'",
+      "Skipped claim for PMID 35508529: out-of-scope claim 'dietary fiber alone' -> 'body weight'",
+      "Skipped claim for PMID 35508529: out-of-scope claim 'microbiota richness' -> 'body weight'"
+    ],
+    "26153197": [
+      "Skipped claim for PMID 26153197: out-of-scope claim 'symbiotic tablet' -> 'hs-CRP'",
+      "Skipped claim for PMID 26153197: out-of-scope claim 'symbiotic tablet' -> 'IL-6'",
+      "Skipped claim for PMID 26153197: out-of-scope claim 'symbiotic tablet' -> 'TNF-α'",
+      "Used zero-claim retry after post-processing for PMID 26153197: 3 claims"
+    ],
+    "32803709": [
+      "Skipped claim for PMID 32803709: out-of-scope claim 'inulin+oligofructose' -> 'insulin_AUC'",
+      "Skipped claim for PMID 32803709: out-of-scope claim 'inulin+oligofructose' -> 'GLP-1'",
+      "Skipped claim for PMID 32803709: out-of-scope claim 'inulin+oligofructose' -> 'PYY'",
+      "Skipped claim for PMID 32803709: out-of-scope claim 'inulin+oligofructose' -> 'anthropometric_measurements'",
+      "Skipped claim for PMID 32803709: out-of-scope claim 'inulin+oligofructose' -> 'appetite_ratings'",
+      "Used zero-claim retry after post-processing for PMID 32803709: 5 claims"
+    ],
+    "41028784": [
+      "Skipped claim for PMID 41028784: out-of-scope claim 'placebo' -> 'all parameters'"
+    ],
+    "36364884": [
+      "Skipped suspicious food entity 'placebo_yogurt': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "40699044": [
+      "Skipped suspicious food entity 'placebo (maltodextrin)': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "24996842": [
+      "Used zero-claim retry for PMID 24996842: 2 raw claims"
+    ],
+    "28121648": [
+      "Skipped claim for PMID 28121648: out-of-scope claim 'no intervention (control infants)' -> 'Actinobacteria proportions'"
+    ],
+    "40815418": [
+      "Skipped claim for PMID 40815418: out-of-scope claim 'SBD111' -> 'Lumbar spine areal BMD'",
+      "Skipped claim for PMID 40815418: out-of-scope claim 'SBD111' -> 'Total hip areal BMD'",
+      "Skipped claim for PMID 40815418: out-of-scope claim 'SBD111' -> 'Femoral neck areal BMD'",
+      "Used zero-claim retry after post-processing for PMID 40815418: 3 claims"
+    ],
+    "31952249": [
+      "Skipped claim for PMID 31952249: missing legacy direction for 'relative_abundance_of_bifidobacteria' -> 'body_mass,_bmi,_waist_circumference,_body_fat_mass'"
+    ],
+    "30946757": [
+      "Skipped claim for PMID 30946757: out-of-scope claim 'high H2 producer status' -> 'Prevotella/Bacteroides metabolic potential ratio'"
+    ],
+    "22067612": [
+      "Skipped suspicious food entity 'placebo yoghurt': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "21115766": [
+      "Skipped claim for PMID 21115766: out-of-scope claim 'plasma free fatty acids' -> 'plasma free fatty acids concentration before breakfast'"
+    ],
+    "40182598": [
+      "Skipped suspicious food entity 'placebo fermented milk': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "37062834": [
+      "Skipped suspicious food entity 'placebo': Blacklisted food term: placebo; Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "38738780": [
+      "Skipped suspicious food entity 'placebo_control': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "35232647": [
+      "Skipped claim for PMID 35232647: out-of-scope claim 'female_gender' -> 'gallbladder_disease'",
+      "Skipped claim for PMID 35232647: out-of-scope claim 'ursodeoxycholic_acid' -> 'adverse_effect_rate'",
+      "Skipped claim for PMID 35232647: out-of-scope claim 'ursodeoxycholic_acid' -> 'gallstone_disease_incidence'",
+      "Skipped claim for PMID 35232647: out-of-scope claim 'digestive_enzyme' -> 'gallstone_disease_incidence'"
+    ],
+    "21697819": [
+      "Skipped suspicious food entity 'placebo yogurt': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "10745279": [
+      "Skipped suspicious food entity 'Placebo yoghurt (delta-acid-lactone fermented)': Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped suspicious food entity 'Placebo pills': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "26378926": [
+      "Skipped claim for PMID 26378926: out-of-scope claim 'Atopic disease status' -> 'Proteobacteria diversity'"
+    ],
+    "34552104": [
+      "Skipped suspicious food entity 'placebo': Blacklisted food term: placebo; Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 34552104: out-of-scope claim 'ship voyage' -> 'gut microbiome composition'",
+      "Skipped claim for PMID 34552104: out-of-scope claim 'ship voyage' -> 'carbohydrate and amino acid metabolism'"
+    ],
+    "35562885": [
+      "Skipped claim for PMID 35562885: out-of-scope claim 'gut microbiome' -> 'beta diversity'",
+      "Skipped claim for PMID 35562885: out-of-scope claim 'gut microbiome' -> 'alpha diversity'",
+      "Skipped claim for PMID 35562885: out-of-scope claim 'gut microbiome' -> 'taxa abundance'"
+    ],
+    "39339787": [
+      "Skipped claim for PMID 39339787: out-of-scope claim 'BMI' -> 'Bacillota phylum abundance'"
+    ],
+    "35920045": [
+      "Skipped claim for PMID 35920045: out-of-scope claim 'GMY & Corinthian raisins combination (GMYC)' -> 'Glycaemic Index (GI)'",
+      "Skipped claim for PMID 35920045: out-of-scope claim 'Corinthian raisins' -> 'Glycaemic Index (GI)'",
+      "Skipped claim for PMID 35920045: out-of-scope claim 'Sultana raisins' -> 'Glycaemic Index (GI)'",
+      "Skipped claim for PMID 35920045: out-of-scope claim 'GMY & Corinthian raisins combination (GMYC)' -> 'Peak blood glucose rise'"
+    ],
+    "23767790": [
+      "Skipped suspicious food entity 'placebo': Blacklisted food term: placebo; Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "40958659": [
+      "Skipped claim for PMID 40958659: out-of-scope claim 'L. reuteri tablets' -> 'mean probing depth'",
+      "Skipped claim for PMID 40958659: out-of-scope claim 'L. reuteri tablets' -> 'HbA1c'",
+      "Skipped claim for PMID 40958659: out-of-scope claim 'L. reuteri tablets' -> 'microbiological outcomes'",
+      "Used zero-claim retry after post-processing for PMID 40958659: 2 claims"
+    ],
+    "37078654": [
+      "Skipped claim for PMID 37078654: out-of-scope claim 'polydextrose with oligosaccharides' -> 'Bristol stool scale score'",
+      "Skipped claim for PMID 37078654: out-of-scope claim 'psyllium husk with oligosaccharides' -> 'Bristol stool scale score'",
+      "Skipped claim for PMID 37078654: out-of-scope claim 'wheat bran and psyllium husk with oligosaccharides' -> 'Bristol stool scale score'",
+      "Skipped claim for PMID 37078654: out-of-scope claim 'polydextrose with oligosaccharides' -> 'Bifidobacterium abundance'",
+      "Skipped claim for PMID 37078654: missing legacy direction for 'bifidobacterium_animalis_subsp._lactis_hn019_and_lacticaseibacillus_rhamnosus_hn001_with_oligosaccharides' -> 'plasma_5-hydroxytryptamine'",
+      "Skipped claim for PMID 37078654: out-of-scope claim 'psyllium husk with oligosaccharides' -> 'Anaerostipes abundance'",
+      "Skipped claim for PMID 37078654: out-of-scope claim 'wheat bran and psyllium husk with oligosaccharides' -> 'Anaerostipes abundance'"
+    ],
+    "41168767": [
+      "Skipped claim for PMID 41168767: unsupported subject type 'source' for 'Maternal gut'",
+      "Skipped claim for PMID 41168767: unsupported subject type 'source' for 'Placenta'"
+    ],
+    "41687784": [
+      "Skipped claim for PMID 41687784: out-of-scope claim 'rolled oats' -> 'microbial evenness'",
+      "Skipped claim for PMID 41687784: out-of-scope claim 'rolled oats' -> 'interindividual divergence'"
+    ],
+    "35411924": [
+      "Skipped suspicious food entity 'Control yogurt (CON)': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "27412706": [
+      "Skipped claim for PMID 27412706: out-of-scope claim 'Bacteroidetes' -> 'LDL-cholesterol'",
+      "Skipped claim for PMID 27412706: out-of-scope claim 'Bacteroidetes' -> 'HDL-cholesterol'",
+      "Skipped claim for PMID 27412706: out-of-scope claim 'Firmicutes' -> 'total cholesterol'",
+      "Skipped claim for PMID 27412706: out-of-scope claim 'Firmicutes' -> 'LDL-cholesterol'",
+      "Skipped claim for PMID 27412706: out-of-scope claim 'Firmicutes' -> 'HDL-cholesterol'"
+    ],
+    "20135748": [
+      "Skipped claim for PMID 20135748: out-of-scope claim 'Bio-three' -> 'duration of diarrhea'",
+      "Skipped claim for PMID 20135748: out-of-scope claim 'Bio-three' -> 'hospital stay length'",
+      "Skipped claim for PMID 20135748: out-of-scope claim 'Bio-three' -> 'Bifidobacteria count'",
+      "Skipped claim for PMID 20135748: out-of-scope claim 'Bio-three' -> 'Lactobacillus species count'",
+      "Skipped claim for PMID 20135748: out-of-scope claim 'Bio-three' -> 'IL-10'",
+      "Skipped claim for PMID 20135748: out-of-scope claim 'Bio-three' -> 'TNF-alpha'",
+      "Skipped claim for PMID 20135748: out-of-scope claim 'Bio-three' -> 'IFN-gamma and IL-12'",
+      "Used zero-claim retry after post-processing for PMID 20135748: 6 claims"
+    ],
+    "36014810": [
+      "Skipped claim for PMID 36014810: out-of-scope claim 'LabinicTM' -> 'NEC incidence'",
+      "Skipped claim for PMID 36014810: out-of-scope claim 'LabinicTM' -> 'feeding intolerances'",
+      "Used zero-claim retry after post-processing for PMID 36014810: 2 claims"
+    ],
+    "21996130": [
+      "Skipped suspicious food entity 'placebo yoghurt': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "26499352": [
+      "Skipped claim for PMID 26499352: out-of-scope claim 'Clostridium butyricum MIYAIRI' -> 'modified Gastrointestinal Quality of Life Index (mGIQLI)'",
+      "Skipped claim for PMID 26499352: out-of-scope claim 'Aczym' -> 'modified Gastrointestinal Quality of Life Index (mGIQLI)'"
+    ],
+    "31250099": [
+      "Skipped claim for PMID 31250099: out-of-scope claim 'TM7' -> 'adiposity markers'",
+      "Skipped claim for PMID 31250099: out-of-scope claim 'TM7' -> 'higher adiposity'",
+      "Skipped claim for PMID 31250099: out-of-scope claim 'Clostridiaceae' -> 'TNF-α'"
+    ],
+    "27208120": [
+      "Skipped suspicious food entity 'placebo milk': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "38149413": [
+      "Skipped suspicious food entity 'placebo dairy drink': Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 38149413: missing legacy direction for 'dairy_kefir' -> 'adhd_symptomatology'",
+      "Skipped claim for PMID 38149413: missing legacy direction for 'dairy_kefir' -> 'gut_microbiota_composition'",
+      "Skipped claim for PMID 38149413: missing legacy direction for 'dairy_kefir' -> 'sleep_quality_and_patterns'",
+      "Skipped claim for PMID 38149413: missing legacy direction for 'dairy_kefir' -> 'inattention_and_impulsivity'"
+    ],
+    "20145666": [
+      "Skipped suspicious food entity 'placebo milk drink': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "33487257": [
+      "Skipped claim for PMID 33487257: out-of-scope claim 'uric_acid' -> 'homa_ir'",
+      "Skipped claim for PMID 33487257: out-of-scope claim 'uric_acid' -> 'quicki'"
+    ],
+    "21296446": [
+      "Skipped suspicious food entity 'placebo yogurt': Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal' -> 'fecal bifidobacteria counts'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'fecal Bifidobacterium animalis subsp. lactis counts'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'fecal Lactobacillus acidophilus LA-5 counts'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'fecal lactobacilli counts'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'fecal enterococci counts'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'plasma cholesterol'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'body weight'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'waist girth'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'blood pressure'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'fasting plasma triglyceride'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'HDL-C'",
+      "Skipped claim for PMID 21296446: out-of-scope claim 'Yoptimal + Yoptimal-10' -> 'cholesterol/HDL-cholesterol ratio'",
+      "Used zero-claim retry after post-processing for PMID 21296446: 8 claims"
+    ],
+    "32471645": [
+      "Skipped claim for PMID 32471645: out-of-scope claim 'cell-free fermented broth' -> 'total cholesterol'",
+      "Skipped claim for PMID 32471645: out-of-scope claim 'cell-free fermented broth' -> 'HDL cholesterol'",
+      "Skipped claim for PMID 32471645: out-of-scope claim 'cell-free fermented broth' -> 'LDL cholesterol'",
+      "Skipped claim for PMID 32471645: out-of-scope claim 'cell-free fermented broth' -> 'VLDL cholesterol'",
+      "Skipped claim for PMID 32471645: out-of-scope claim 'cell-free fermented broth' -> 'triglycerides'",
+      "Skipped claim for PMID 32471645: out-of-scope claim 'cell-free fermented broth' -> 'lipid profile'"
+    ],
+    "36014800": [
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'subclinical response rate'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'clinical relapse'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'fecal acetone'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'fecal xanthine'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'fecal taurine'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'urinary carnosine'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'urinary p-hydroxybenzoic acid'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'Bifidobacteriaceae'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'Lachnospiraceae'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'Ruminococcaceae'",
+      "Used zero-claim retry after post-processing for PMID 36014800: 1 claims",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'fecal_Bifidobacteriaceae'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'fecal_Lachnospiraceae'",
+      "Skipped claim for PMID 36014800: out-of-scope claim 'anti-inflammatory diet' -> 'fecal_Ruminococcaceae'"
+    ],
+    "41094562": [
+      "Skipped claim for PMID 41094562: out-of-scope claim 'omega-3' -> 'TNF-α'",
+      "Skipped claim for PMID 41094562: out-of-scope claim 'inulin fibre' -> 'TNF-α'"
+    ],
+    "40515809": [
+      "Skipped suspicious food entity 'placebo': Blacklisted food term: placebo; Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "37614109": [
+      "Skipped claim for PMID 37614109: out-of-scope claim 'Gut microbiota changes' -> 'Anti-inflammatory markers (IL-10 and sIgA)'"
+    ],
+    "34063276": [
+      "Skipped claim for PMID 34063276: out-of-scope claim 'diversion colitis severity' -> 'blood inflammatory biomarkers'"
+    ],
+    "39519594": [
+      "Skipped claim for PMID 39519594: missing legacy direction for 'probiotic_supplement' -> 'tnf-α'"
+    ],
+    "28786012": [
+      "Skipped suspicious food entity 'placebo': Blacklisted food term: placebo; Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "38970270": [
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> 'fasting plasma glucose (FPG)'",
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> '2-h postprandial plasma glucose (2-h PG)'",
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> 'glycosylated hemoglobin A1c (HbA1c)'",
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> 'fasting insulin (FINS)'",
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> 'HOMA-β (islet β-cell function)'",
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> 'HOMA-IR (insulin resistance)'",
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> 'lactobacilli count'",
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> 'bifidobacteria count'",
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> 'lipopolysaccharide (LPS)'",
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> 'interleukin 6 (IL-6)'",
+      "Skipped claim for PMID 38970270: out-of-scope claim 'metformin' -> 'C-reactive protein (CRP)'"
+    ],
+    "39500949": [
+      "Skipped claim for PMID 39500949: out-of-scope claim 'age' -> 'treatment response'",
+      "Skipped claim for PMID 39500949: out-of-scope claim 'fingernail cortisol concentrations (FCC)' -> 'attention and impulsivity symptoms'",
+      "Skipped claim for PMID 39500949: out-of-scope claim 'academic grades' -> 'hyperactivity and impulsivity'"
+    ],
+    "41609355": [
+      "Skipped claim for PMID 41609355: out-of-scope claim 'Lihuo' -> 'Reflux Disease Questionnaire (RDQ) score'",
+      "Skipped claim for PMID 41609355: out-of-scope claim 'Lihuo' -> 'Endoscopic healing rate'",
+      "Skipped claim for PMID 41609355: out-of-scope claim 'Lihuo' -> 'Bifidobacterium animalis abundance'",
+      "Skipped claim for PMID 41609355: out-of-scope claim 'Lihuo' -> 'Lactiplantibacillus plantarum abundance'",
+      "Skipped claim for PMID 41609355: out-of-scope claim 'Lihuo' -> 'Gamma-aminobutyric acid (GABA) levels'",
+      "Skipped claim for PMID 41609355: out-of-scope claim 'Lihuo' -> 'Short-chain fatty acids levels'",
+      "Skipped claim for PMID 41609355: out-of-scope claim 'Lihuo' -> 'Succinate levels'",
+      "Used zero-claim retry after post-processing for PMID 41609355: 5 claims"
+    ],
+    "17440520": [
+      "Skipped suspicious food entity 'placebo_product': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "10067658": [
+      "Skipped suspicious food entity 'placebo fermented milk (yogurt)': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "25830947": [
+      "Skipped claim for PMID 25830947: out-of-scope claim 'cereals with LF19' -> 'metabolic and inflammatory profile'",
+      "Skipped claim for PMID 25830947: out-of-scope claim 'overweight/obese children' -> 'plasma C-peptide'",
+      "Skipped claim for PMID 25830947: out-of-scope claim 'overweight/obese children' -> 'plasminogen activator inhibitor-1'",
+      "Skipped claim for PMID 25830947: out-of-scope claim 'overweight/obese children' -> 'leptin'",
+      "Skipped claim for PMID 25830947: out-of-scope claim 'overweight/obese children' -> 'serum high-sensitivity C-reactive protein'",
+      "Skipped claim for PMID 25830947: out-of-scope claim 'overweight children (excluding obese)' -> 'leptin'",
+      "Skipped claim for PMID 25830947: out-of-scope claim 'overweight children (excluding obese)' -> 'serum high-sensitivity C-reactive protein'",
+      "Skipped claim for PMID 25830947: out-of-scope claim 'body mass index z-score' -> 'metabolic and inflammatory profile'",
+      "Skipped claim for PMID 25830947: out-of-scope claim 'sagittal abdominal diameter' -> 'metabolic and inflammatory profile'",
+      "Skipped claim for PMID 25830947: out-of-scope claim 'truncal body fat %' -> 'metabolic and inflammatory profile'",
+      "Skipped claim for PMID 25830947: out-of-scope claim 'total body fat %' -> 'metabolic and inflammatory profile'",
+      "Used zero-claim retry after post-processing for PMID 25830947: 1 claims"
+    ],
+    "35236778": [
+      "Skipped suspicious food entity 'placebo lozenge': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "26419583": [
+      "Skipped suspicious food entity 'control milk': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "38999862": [
+      "Skipped claim for PMID 38999862: out-of-scope claim 'fecal microbiota transplantation' -> 'IBS_symptoms'",
+      "Skipped claim for PMID 38999862: out-of-scope claim 'fecal microbiota transplantation' -> 'adverse_events'"
+    ],
+    "21494186": [
+      "Skipped suspicious food entity 'placebo': Blacklisted food term: placebo; Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "17692137": [
+      "Skipped suspicious food entity 'control fermented milk': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "24848793": [
+      "Skipped suspicious food entity 'Placebo capsules': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "39519413": [
+      "Skipped suspicious food entity 'Placebo fermented milk': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "27871802": [
+      "Skipped claim for PMID 27871802: out-of-scope claim 'placebo' -> 'bowel discomfort'",
+      "Skipped claim for PMID 27871802: unsupported subject type 'other' for 'C. albicans seropositivity'"
+    ],
+    "39618097": [
+      "Skipped suspicious food entity 'placebo supplement': Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 39618097: out-of-scope claim 'HIIT exercise' -> 'time to exhaustion (TTE)'",
+      "Skipped claim for PMID 39618097: out-of-scope claim 'HIIT exercise' -> 'waist circumference'"
+    ],
+    "30625189": [
+      "Skipped claim for PMID 30625189: out-of-scope claim 'BCP + B. infantis combination' -> 'Tolerability'",
+      "Skipped claim for PMID 30625189: out-of-scope claim 'BCP + B. infantis combination' -> 'Side effects'",
+      "Skipped claim for PMID 30625189: out-of-scope claim 'BCP + B. infantis combination' -> 'GI symptoms frequency'",
+      "Skipped claim for PMID 30625189: out-of-scope claim 'BCP + B. infantis combination' -> 'Aberrant behaviors'",
+      "Skipped claim for PMID 30625189: out-of-scope claim 'BCP + B. infantis combination' -> 'IL-13 production'",
+      "Skipped claim for PMID 30625189: out-of-scope claim 'BCP + B. infantis combination' -> 'TNF-alpha production'",
+      "Used zero-claim retry after post-processing for PMID 30625189: 4 claims"
+    ],
+    "33183883": [
+      "Skipped suspicious food entity 'placebo': Blacklisted food term: placebo; Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 33183883: out-of-scope claim 'low FODMAP diet' -> 'Bacteroides abundance'",
+      "Skipped claim for PMID 33183883: out-of-scope claim 'low FODMAP diet' -> 'Bifidobacterium abundance'",
+      "Skipped claim for PMID 33183883: out-of-scope claim 'protein intake' -> 'Bifidobacterium abundance'",
+      "Skipped claim for PMID 33183883: out-of-scope claim 'baseline microbiota' -> 'clinical response to intervention'"
+    ],
+    "28852205": [
+      "Skipped claim for PMID 28852205: out-of-scope claim 'Bio-25' -> 'liver_fat_content'",
+      "Skipped claim for PMID 28852205: out-of-scope claim 'Bio-25' -> 'NAFLD_remission_rate'",
+      "Skipped claim for PMID 28852205: out-of-scope claim 'Bio-25' -> 'fibrosis'",
+      "Skipped claim for PMID 28852205: out-of-scope claim 'Bio-25' -> 'C-reactive_protein'",
+      "Skipped claim for PMID 28852205: out-of-scope claim 'Bio-25' -> 'leptin'",
+      "Skipped claim for PMID 28852205: out-of-scope claim 'Bio-25' -> 'cytokeratin-18'",
+      "Skipped claim for PMID 28852205: out-of-scope claim 'Bio-25' -> 'quality_of_life'",
+      "Skipped claim for PMID 28852205: out-of-scope claim 'Bio-25' -> 'fecal_microbiota_alpha_diversity'",
+      "Used zero-claim retry after post-processing for PMID 28852205: 5 claims"
+    ],
+    "28677946": [
+      "Skipped suspicious food entity 'placebo': Blacklisted food term: placebo; Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 28677946: out-of-scope claim 'circuit training' -> 'immune cells count'"
+    ],
+    "39396767": [
+      "Skipped claim for PMID 39396767: out-of-scope claim 'Probio-X' -> 'serum uric acid'",
+      "Skipped claim for PMID 39396767: out-of-scope claim 'Probio-X' -> 'acute gout attack rate'"
+    ],
+    "34256014": [
+      "Skipped claim for PMID 34256014: out-of-scope claim 'high-fiber diet' -> 'microbiome-encoded glycan-degrading carbohydrate active enzymes (CAZymes)'",
+      "Skipped claim for PMID 34256014: out-of-scope claim 'high-fiber diet' -> 'cytokine response score'",
+      "Skipped claim for PMID 34256014: out-of-scope claim 'high-fiber diet' -> 'immunological trajectories'"
+    ],
+    "28650782": [
+      "Skipped claim for PMID 28650782: out-of-scope claim 'xylitol-containing_chewing_gums' -> 'salivary_S_mutans_count'"
+    ],
+    "34996347": [
+      "Skipped claim for PMID 34996347: out-of-scope claim 'WBF-011' -> 'circulating butyrate'",
+      "Skipped claim for PMID 34996347: out-of-scope claim 'WBF-011' -> 'circulating ursodeoxycholate'",
+      "Skipped claim for PMID 34996347: out-of-scope claim 'circulating butyrate' -> 'HbA1c'",
+      "Skipped claim for PMID 34996347: out-of-scope claim 'WBF-011' -> 'HbA1c'",
+      "Skipped claim for PMID 34996347: out-of-scope claim 'WBF-011' -> 'fatty acid oxidation intermediates'",
+      "Skipped claim for PMID 34996347: out-of-scope claim 'WBF-011' -> 'bilirubin'",
+      "Skipped claim for PMID 34996347: out-of-scope claim 'sulfonylurea drugs' -> 'WBF-011 strain growth'"
+    ],
+    "22969230": [
+      "Skipped suspicious food entity 'control yogurt': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "22872030": [
+      "Skipped claim for PMID 22872030: out-of-scope claim 'metabolic syndrome' -> 'gut permeability'"
+    ],
+    "23632352": [
+      "Skipped claim for PMID 23632352: out-of-scope claim 'BIO-THREE' -> 'Total diarrhea duration'",
+      "Skipped claim for PMID 23632352: out-of-scope claim 'BIO-THREE' -> 'Severe diarrhea incidence'",
+      "Skipped claim for PMID 23632352: out-of-scope claim 'BIO-THREE' -> 'Severe gastroenteritis incidence'",
+      "Skipped claim for PMID 23632352: out-of-scope claim 'BIO-THREE' -> 'Vesikari scale score'",
+      "Skipped claim for PMID 23632352: out-of-scope claim 'BIO-THREE' -> 'Length of hospital stay'",
+      "Used zero-claim retry after post-processing for PMID 23632352: 5 claims"
+    ],
+    "21074284": [
+      "Skipped claim for PMID 21074284: out-of-scope claim 'capsules' -> 'Comparable means of administration'"
+    ],
+    "36705702": [
+      "Skipped claim for PMID 36705702: out-of-scope claim 'fish oil supplement' -> 'overweight status'"
+    ],
+    "30256365": [
+      "Skipped claim for PMID 30256365: out-of-scope claim 'unpasteurized sauerkraut' -> 'sauerkraut-related LAB detection in feces'"
+    ],
+    "34444974": [
+      "Skipped suspicious food entity 'control yogurt': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "34172012": [
+      "Skipped claim for PMID 34172012: out-of-scope claim 'C-section birth' -> 'Enterobacteriaceae abundance'",
+      "Skipped claim for PMID 34172012: out-of-scope claim 'C-section birth' -> 'reactive oxygen species metabolism gene expression'",
+      "Skipped claim for PMID 34172012: out-of-scope claim 'C-section birth' -> 'lipopolysaccharide biosynthesis gene expression'",
+      "Skipped claim for PMID 34172012: out-of-scope claim 'C-section birth' -> 'milk carbohydrate metabolism gene expression'",
+      "Skipped claim for PMID 34172012: out-of-scope claim 'vaginal birth' -> 'Bifidobacteriaceae abundance'",
+      "Skipped claim for PMID 34172012: out-of-scope claim 'vaginal birth' -> 'gut redox potential (oxygen levels)'",
+      "Skipped claim for PMID 34172012: out-of-scope claim 'vaginal birth' -> 'gut acidity (pH)'"
+    ],
+    "41936275": [
+      "Skipped claim for PMID 41936275: out-of-scope claim 'Bactecal®' -> 'FEV1/FVC'",
+      "Skipped claim for PMID 41936275: out-of-scope claim 'Bactecal®' -> 'sputum eosinophils'",
+      "Skipped claim for PMID 41936275: out-of-scope claim 'Bactecal®' -> 'sputum IL-4'",
+      "Skipped claim for PMID 41936275: out-of-scope claim 'Bactecal®' -> 'sputum IL-8'",
+      "Used zero-claim retry after post-processing for PMID 41936275: 6 claims"
+    ],
+    "10099941": [
+      "Skipped claim for PMID 10099941: missing legacy direction for 'gaio' -> 'total_cholesterol'"
+    ],
+    "15570025": [
+      "Skipped claim for PMID 15570025: out-of-scope claim 'soy protein isolate' -> 'total cholesterol'",
+      "Skipped claim for PMID 15570025: out-of-scope claim 'soy protein isolate' -> 'LDL cholesterol'",
+      "Skipped claim for PMID 15570025: out-of-scope claim 'soy protein isolate' -> 'HDL cholesterol'",
+      "Skipped claim for PMID 15570025: out-of-scope claim 'soy protein isolate' -> 'triglycerides'",
+      "Skipped claim for PMID 15570025: out-of-scope claim 'soy protein isolate' -> 'total cholesterol'",
+      "Skipped claim for PMID 15570025: out-of-scope claim 'soy protein isolate' -> 'LDL cholesterol'",
+      "Skipped claim for PMID 15570025: out-of-scope claim 'soy protein isolate' -> 'triglycerides'",
+      "Skipped claim for PMID 15570025: out-of-scope claim 'soy protein isolate' -> 'HDL cholesterol'"
+    ],
+    "28923425": [
+      "Skipped claim for PMID 28923425: missing legacy direction for 'probiotics' -> 'vaccine_response'"
+    ],
+    "39126817": [
+      "Skipped claim for PMID 39126817: out-of-scope claim 'online yoga' -> 'quality_of_life'"
+    ],
+    "40250086": [
+      "Skipped claim for PMID 40250086: out-of-scope claim 'Oat bran with L. plantarum HEAL19 and blueberry husks' -> 'White blood cell counts'",
+      "Skipped claim for PMID 40250086: out-of-scope claim 'Oat bran' -> 'White blood cell counts'",
+      "Skipped claim for PMID 40250086: out-of-scope claim 'Oat bran with L. plantarum HEAL19 and blueberry husks' -> 'Inflammation'",
+      "Skipped claim for PMID 40250086: out-of-scope claim 'Oat bran with L. plantarum HEAL19 and blueberry husks' -> 'Fibrosis'",
+      "Skipped claim for PMID 40250086: out-of-scope claim 'Oat bran with L. plantarum HEAL19 and blueberry husks' -> 'Bacterial diversity'",
+      "Skipped claim for PMID 40250086: out-of-scope claim 'Oat bran' -> 'Bacterial diversity'",
+      "Used zero-claim retry after post-processing for PMID 40250086: 4 claims"
+    ],
+    "38393607": [
+      "Skipped claim for PMID 38393607: missing legacy direction for 'fermented_foods' -> 'health_outcomes'"
+    ],
+    "38101518": [
+      "Skipped claim for PMID 38101518: out-of-scope claim 'HOMA-IR' -> 'reinforcing value of sugar-sweetened yogurt'",
+      "Skipped claim for PMID 38101518: out-of-scope claim 'insulin' -> 'reinforcing value of sugar-sweetened yogurt'",
+      "Skipped claim for PMID 38101518: out-of-scope claim 'blood glucose area under the curve (AUC)' -> 'moderation of HOMA-IR and reinforcing value of sugar-sweetened yogurt relationship'",
+      "Skipped claim for PMID 38101518: out-of-scope claim 'delay discounting' -> 'reinforcing value of sugar-sweetened yogurt'",
+      "Skipped claim for PMID 38101518: out-of-scope claim 'delay discounting' -> 'moderation of HOMA-IR and reinforcing value of sugar-sweetened yogurt relationship'",
+      "Used zero-claim retry after post-processing for PMID 38101518: 1 claims",
+      "Skipped claim for PMID 38101518: out-of-scope claim 'blood_glucose_response' -> 'reinforcing_value_of_sugar_sweetened_yogurt'"
+    ],
+    "38717445": [
+      "Skipped claim for PMID 38717445: unsupported subject type 'metabolite' for 'Butyric acid concentration'",
+      "Skipped claim for PMID 38717445: unsupported subject type 'metabolite' for 'Butyric acid concentration'",
+      "Skipped claim for PMID 38717445: unsupported subject type 'metabolite' for 'Butyric acid concentration'",
+      "Skipped claim for PMID 38717445: unsupported subject type 'metabolite' for 'Butyric acid concentration'"
+    ],
+    "19403719": [
+      "Skipped suspicious food entity 'placebo yogurt drink': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "29651635": [
+      "Skipped claim for PMID 29651635: out-of-scope claim 'placebo' -> 'plasma choline levels'"
+    ],
+    "23128099": [
+      "Skipped claim for PMID 23128099: out-of-scope claim 'test meals (rolled oats, cornflakes, walnuts)' -> 'satiety'",
+      "Skipped claim for PMID 23128099: out-of-scope claim 'test meals (all varieties)' -> 'mood'",
+      "Skipped claim for PMID 23128099: out-of-scope claim 'test meals (all varieties)' -> 'fatigue'",
+      "Skipped claim for PMID 23128099: out-of-scope claim 'test meals (all varieties)' -> 'calmness'",
+      "Skipped claim for PMID 23128099: out-of-scope claim 'glycemic index manipulation' -> 'satiety'"
+    ],
+    "22915051": [
+      "Skipped claim for PMID 22915051: out-of-scope claim 'solid meal' -> 'gallbladder volume'"
+    ],
+    "14985690": [
+      "Skipped claim for PMID 14985690: out-of-scope claim 'phytosterol-enriched bread' -> 'serum LDL cholesterol'",
+      "Skipped claim for PMID 14985690: out-of-scope claim 'phytosterol-enriched cereal' -> 'serum LDL cholesterol'"
+    ],
+    "26001091": [
+      "Skipped claim for PMID 26001091: out-of-scope claim 'exopolysaccharides' -> 'postprandial glucose response'"
+    ],
+    "2852540": [
+      "Skipped suspicious food entity 'control yoghurt': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "34020263": [
+      "Skipped suspicious food entity 'placebo fermented dairy food': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "27225729": [
+      "Skipped suspicious food entity 'placebo_dairy_yogurt': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "36087572": [
+      "Skipped claim for PMID 36087572: out-of-scope claim 'Parkinson's disease patients' -> 'gut microbiota composition'"
+    ],
+    "38219239": [
+      "Skipped claim for PMID 38219239: out-of-scope claim 'escitalopram' -> 'depressive_symptoms'"
+    ],
+    "25095846": [
+      "Skipped claim for PMID 25095846: out-of-scope claim '0.05% sodium fluoride rinse' -> 'Mutans streptococci count'"
+    ],
+    "38350486": [
+      "Skipped claim for PMID 38350486: out-of-scope claim 'SynForU-HerCare' -> 'Vaginal microbiota Shannon diversity index'",
+      "Skipped claim for PMID 38350486: out-of-scope claim 'SynForU-HerCare' -> 'Vaginal Lactobacillus abundance'",
+      "Skipped claim for PMID 38350486: out-of-scope claim 'SynForU-HerCare' -> 'Vaginal Prevotella abundance'",
+      "Skipped claim for PMID 38350486: out-of-scope claim 'SynForU-HerCare' -> 'Vaginal Atopobium abundance'",
+      "Skipped claim for PMID 38350486: out-of-scope claim 'SynForU-HerCare' -> 'Faecal Firmicutes phylum abundance'",
+      "Skipped claim for PMID 38350486: out-of-scope claim 'SynForU-HerCare' -> 'Gut microbiota taxonomic diversity'",
+      "Used zero-claim retry after post-processing for PMID 38350486: 2 claims"
+    ],
+    "17656069": [
+      "Skipped claim for PMID 17656069: out-of-scope claim 'resistant_starch' -> 'plasma_daidzein'",
+      "Skipped claim for PMID 17656069: out-of-scope claim 'resistant_starch' -> 'plasma_genistein'",
+      "Skipped claim for PMID 17656069: out-of-scope claim 'resistant_starch' -> 'urinary_isoflavones'"
+    ],
+    "28177745": [
+      "Skipped claim for PMID 28177745: out-of-scope claim 'caloric beverages' -> 'cumulative energy intake'",
+      "Skipped claim for PMID 28177745: out-of-scope claim 'body weight status' -> 'post-meal glucose'"
+    ],
+    "16234829": [
+      "Skipped suspicious food entity 'placebo yoghurt drink': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "21945866": [
+      "Skipped claim for PMID 21945866: out-of-scope claim 'Fabuless (Olibra) lipid emulsion with water' -> 'satiety ratings'",
+      "Skipped claim for PMID 21945866: out-of-scope claim 'Fabuless (Olibra) lipid emulsion with muffin' -> 'satiety ratings'",
+      "Skipped claim for PMID 21945866: out-of-scope claim 'Fabuless (Olibra) lipid emulsion (all formats)' -> 'ad libitum energy intake'",
+      "Skipped claim for PMID 21945866: out-of-scope claim 'Fabuless (Olibra) lipid emulsion (all formats)' -> 'eating behavior at subsequent meal'"
+    ],
+    "36139478": [
+      "Skipped claim for PMID 36139478: out-of-scope claim 'equol' -> 'binding_affinity'",
+      "Skipped claim for PMID 36139478: out-of-scope claim 'isoflavone' -> 'binding_affinity'"
+    ],
+    "34557508": [
+      "Skipped claim for PMID 34557508: out-of-scope claim 'early-life gut microbiota composition' -> 'NEC_risk'"
+    ],
+    "23250116": [
+      "Skipped claim for PMID 23250116: out-of-scope claim 'metronidazole' -> 'vaginal microbiota diversity'"
+    ],
+    "18266878": [
+      "Skipped claim for PMID 18266878: out-of-scope claim 'C-reactive protein (CRP)' -> 'eczema at 2 years'",
+      "Skipped claim for PMID 18266878: out-of-scope claim 'C-reactive protein (CRP)' -> 'allergic disease at 2 years'"
+    ],
+    "15520759": [
+      "Skipped claim for PMID 15520759: out-of-scope claim 'small intestinal permeability' -> 'atopic dermatitis severity'"
+    ],
+    "12540390": [
+      "Skipped suspicious food entity 'control product': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "26394259": [
+      "Skipped suspicious food entity 'control yogurt': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "9683394": [
+      "Skipped claim for PMID 9683394: out-of-scope claim 'soya bean lecithin' -> 'serum total cholesterol'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'soya bean lecithin' -> 'serum triglyceride'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'soya bean lecithin' -> 'HDL cholesterol'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'soya bean lecithin' -> 'LDL cholesterol'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'soya bean lecithin' -> 'apolipoprotein A'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'soya bean lecithin' -> 'apolipoprotein B'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'soya bean lecithin' -> 'lipoprotein (a)'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'soya bean lecithin' -> 'plasma fibrinogen'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'soya bean lecithin' -> 'macro molecular protein complex'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'soya bean lecithin' -> 'plasma linoleic acid'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'sunflower oil' -> 'body weight'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'sunflower oil' -> 'serum total cholesterol'",
+      "Skipped claim for PMID 9683394: out-of-scope claim 'sunflower oil' -> 'macro molecular protein complex'",
+      "Used zero-claim retry after post-processing for PMID 9683394: 1 claims"
+    ],
+    "7664720": [
+      "Skipped suspicious food entity 'placebo product (chemically fermented milk)': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "23829785": [
+      "Skipped claim for PMID 23829785: out-of-scope claim 'vitamin D-fortified doogh (DD)' -> 'protein carbonyl'",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'calcium-vitamin D-fortified doogh (CDD)' -> 'protein carbonyl'",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'plain doogh (PD)' -> 'protein carbonyl'",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'vitamin D-fortified doogh (DD)' -> 'cardiac myeloperoxidase'",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'calcium-vitamin D-fortified doogh (CDD)' -> 'cardiac myeloperoxidase'",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'plain doogh (PD)' -> 'cardiac myeloperoxidase'",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'vitamin D-fortified doogh (DD)' -> 'superoxide dismutase'",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'calcium-vitamin D-fortified doogh (CDD)' -> 'superoxide dismutase'",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'vitamin D-fortified doogh (DD)' -> 'advanced glycation end-products'",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'calcium-vitamin D-fortified doogh (CDD)' -> 'advanced glycation end-products'",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'plain doogh (PD)' -> 'advanced glycation end-products'",
+      "Used zero-claim retry after post-processing for PMID 23829785: 3 claims",
+      "Skipped claim for PMID 23829785: out-of-scope claim 'calcium supplement' -> 'oxidative_stress'"
+    ],
+    "39074448": [
+      "Skipped claim for PMID 39074448: out-of-scope claim 'atopic eczema development' -> 'Clostridia relative abundance at 6 months'"
+    ],
+    "26490018": [
+      "Skipped suspicious food entity 'placebo drink': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "16647412": [
+      "Skipped claim for PMID 16647412: out-of-scope claim 'plant stanols' -> 'total cholesterol'",
+      "Skipped claim for PMID 16647412: out-of-scope claim 'plant stanols' -> 'LDL cholesterol'",
+      "Skipped claim for PMID 16647412: out-of-scope claim 'plant stanols' -> 'flow-mediated dilation'",
+      "Skipped claim for PMID 16647412: out-of-scope claim 'plant stanols' -> 'HDL cholesterol'",
+      "Skipped claim for PMID 16647412: out-of-scope claim 'plant stanols' -> 'triglycerides'"
+    ],
+    "15672113": [
+      "Skipped suspicious food entity 'control_diet': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "35015806": [
+      "Skipped claim for PMID 35015806: out-of-scope claim 'vitamin D3 supplementation' -> 'serum 25-hydroxyvitamin D'",
+      "Skipped claim for PMID 35015806: out-of-scope claim 'vitamin D3 supplementation' -> 'LDL cholesterol'",
+      "Skipped claim for PMID 35015806: out-of-scope claim 'vitamin D3 supplementation' -> 'blood pressure'"
+    ],
+    "36904156": [
+      "Skipped claim for PMID 36904156: missing legacy direction for 'prebiotic_supplement' -> 'interleukin-1β_(il-1β)'",
+      "Skipped claim for PMID 36904156: missing legacy direction for 'prebiotic_supplement' -> 'interleukin-6_(il-6)'",
+      "Skipped claim for PMID 36904156: missing legacy direction for 'prebiotic_supplement' -> 'interleukin-4_(il-4)'"
+    ],
+    "15316583": [
+      "Skipped suspicious food entity 'placebo fermented milk': Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 15316583: suspicious food subject 'placebo fermented milk'"
+    ],
+    "35413573": [
+      "Skipped claim for PMID 35413573: out-of-scope claim 'acetic acid concentration' -> 'diarrhea severity and febrile neutropenia occurrence'",
+      "Skipped claim for PMID 35413573: out-of-scope claim 'Clostridioides difficile abundance' -> 'diarrhea severity and febrile neutropenia occurrence'"
+    ],
+    "23608794": [
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Golden Bifid + Changmei combination' -> 'clinical_symptom_score'",
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Golden Bifid + Changmei combination' -> 'endoscopic_classification_score'",
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Golden Bifid + Changmei combination' -> 'inflammatory_reaction_score'",
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Golden Bifid + Changmei combination' -> 'serum_IL-10_concentration'",
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Golden Bifid + Changmei combination' -> 'colon_mucosa_IL-10_expression'",
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Golden Bifid alone' -> 'clinical_symptom_score, endoscopic_score, inflammatory_score, IL-10_levels'",
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Changmei alone' -> 'clinical_symptom_score, endoscopic_score, inflammatory_score, IL-10_levels'",
+      "Used zero-claim retry after post-processing for PMID 23608794: 4 claims",
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Golden Bifid alone' -> 'ulcerative_colitis_symptoms'",
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Changmei alone' -> 'ulcerative_colitis_symptoms'",
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Golden Bifid alone' -> 'IL-10_expression'",
+      "Skipped claim for PMID 23608794: out-of-scope claim 'Changmei alone' -> 'IL-10_expression'"
+    ],
+    "32835617": [
+      "Skipped claim for PMID 32835617: out-of-scope claim 'whey, casein' -> 'gut_microbiota'"
+    ],
+    "35010895": [
+      "Skipped claim for PMID 35010895: out-of-scope claim 'selected bacterial strains' -> 'AD_progression'"
+    ],
+    "8126617": [
+      "Skipped claim for PMID 8126617: out-of-scope claim 'soy_formula' -> 'caloric_intake'",
+      "Skipped claim for PMID 8126617: out-of-scope claim 'soy_formula' -> 'weight_gain'",
+      "Skipped claim for PMID 8126617: out-of-scope claim 'soy_formula' -> 'coefficient_of_absorption_energy'",
+      "Skipped claim for PMID 8126617: out-of-scope claim 'soy_formula' -> 'coefficient_of_absorption_fat'"
+    ],
+    "15766477": [
+      "Skipped suspicious food entity 'placebo yogurt without plant stanol esters': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "15083312": [
+      "Skipped suspicious food entity 'control milk': Suspicious non-food pattern matched: ^control(?:_| )",
+      "Skipped suspicious food entity 'control juice': Suspicious non-food pattern matched: ^control(?:_| )",
+      "Skipped claim for PMID 15083312: out-of-scope claim 'juice containing L. helveticus derived peptides' -> 'serum ionised calcium (iCa)'",
+      "Skipped claim for PMID 15083312: out-of-scope claim 'juice containing L. helveticus derived peptides' -> 'serum parathyroid hormone (PTH)'"
+    ],
+    "19700033": [
+      "Skipped claim for PMID 19700033: out-of-scope claim 'amino acid-based formula' -> 'stool output'",
+      "Skipped claim for PMID 19700033: out-of-scope claim 'amino acid-based formula' -> 'duration of diarrhea'",
+      "Skipped claim for PMID 19700033: out-of-scope claim 'soy-based formula' -> 'persistent diarrhea management'",
+      "Skipped claim for PMID 19700033: out-of-scope claim 'casein-based formula' -> 'persistent diarrhea management'"
+    ],
+    "21811291": [
+      "Skipped claim for PMID 21811291: out-of-scope claim 'butter' -> 'inflammatory biomarkers (IL-6, IL-1β, TNF-α, hs-CRP)'",
+      "Skipped claim for PMID 21811291: out-of-scope claim 'cream' -> 'inflammatory biomarkers (IL-6, IL-1β, TNF-α, hs-CRP)'",
+      "Skipped claim for PMID 21811291: out-of-scope claim 'cream' -> 'atherogenic biomarkers (MCP-1, MIP-1α, ICAM-1, VCAM-1)'"
+    ],
+    "21261786": [
+      "Skipped claim for PMID 21261786: out-of-scope claim 'zinc' -> 'duration of diarrhea'",
+      "Skipped claim for PMID 21261786: out-of-scope claim 'zinc' -> 'duration of hospitalization'"
+    ],
+    "25571684": [
+      "Skipped suspicious food entity 'placebo fruit yogurt': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "35521810": [
+      "Skipped claim for PMID 35521810: out-of-scope claim 'monosaccharide (SSN component)' -> 'Faecalibacterium prausnitzii levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'monosaccharide (SSN component)' -> 'Bifidobacterium longum levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'monosaccharide (SSN component)' -> 'Coprococcus eutactus levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'palmitoleic acid (SSN component)' -> 'Faecalibacterium prausnitzii levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'palmitoleic acid (SSN component)' -> 'Bifidobacterium longum levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'palmitoleic acid (SSN component)' -> 'Coprococcus eutactus levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'glutamine synthetase adenyltransferase (SSN component)' -> 'Faecalibacterium prausnitzii levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'glutamine synthetase adenyltransferase (SSN component)' -> 'Bifidobacterium longum levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'glutamine synthetase adenyltransferase (SSN component)' -> 'Coprococcus eutactus levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'polyunsaturated fatty acids (lower in SSN)' -> 'Faecalibacterium prausnitzii levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'polyunsaturated fatty acids (lower in SSN)' -> 'Bifidobacterium levels'",
+      "Skipped claim for PMID 35521810: out-of-scope claim 'polyunsaturated fatty acids (lower in SSN)' -> 'Bifidobacterium longum levels'"
+    ],
+    "25782657": [
+      "Skipped suspicious food entity 'placebo milk': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "30574802": [
+      "Skipped claim for PMID 30574802: out-of-scope claim 'eczema development' -> 'glycosaminoglycan degradation capacity'",
+      "Skipped claim for PMID 30574802: out-of-scope claim 'eczema development' -> 'flagellum assembly capacity'"
+    ],
+    "32847731": [
+      "Skipped claim for PMID 32847731: out-of-scope claim 'Ultrabiotic 60™' -> 'muscle soreness'",
+      "Skipped claim for PMID 32847731: out-of-scope claim 'Ultrabiotic 60™' -> 'leg heaviness'",
+      "Skipped claim for PMID 32847731: out-of-scope claim 'Ultrabiotic 60™' -> 'sleep quality'",
+      "Skipped claim for PMID 32847731: out-of-scope claim 'Ultrabiotic 60™' -> 'sleep quantity'",
+      "Skipped claim for PMID 32847731: out-of-scope claim 'Ultrabiotic 60™' -> 'motivation'",
+      "Used zero-claim retry after post-processing for PMID 32847731: 3 claims"
+    ],
+    "39146559": [
+      "Skipped claim for PMID 39146559: out-of-scope claim 'vanilla almond beverage' -> 'blood glucose'",
+      "Skipped claim for PMID 39146559: out-of-scope claim 'vanilla almond beverage' -> 'insulin'"
+    ],
+    "34036357": [
+      "Skipped claim for PMID 34036357: out-of-scope claim 'older adults' -> 'pre- and postmeal glucose'"
+    ],
+    "30882242": [
+      "Skipped claim for PMID 30882242: out-of-scope claim 'Pro II' -> 'Nugent score'",
+      "Skipped claim for PMID 30882242: out-of-scope claim 'Pro II' -> 'Gardnerella vaginalis counts'",
+      "Skipped claim for PMID 30882242: out-of-scope claim 'Pro I' -> 'Total vaginal bacterial counts'",
+      "Skipped claim for PMID 30882242: out-of-scope claim 'Pro II' -> 'Safety and tolerability'",
+      "Used zero-claim retry after post-processing for PMID 30882242: 3 claims"
+    ],
+    "38652926": [
+      "Skipped claim for PMID 38652926: out-of-scope claim 'Aloe vera mouthwash' -> 'marginal plaque index (MPI) and bleeding on interdental brushing (BOIB)'"
+    ],
+    "35750555": [
+      "Skipped claim for PMID 35750555: out-of-scope claim 'SREBP1 (sterol regulatory element-binding protein-1)' -> 'sarcopenia diagnosis'",
+      "Skipped claim for PMID 35750555: out-of-scope claim 'Dkk-3 (dickkopf-3)' -> 'sarcopenia diagnosis'"
+    ],
+    "22959620": [
+      "Skipped claim for PMID 22959620: out-of-scope claim 'LACTOFOS' -> 'evacuation_frequency'",
+      "Skipped claim for PMID 22959620: out-of-scope claim 'LACTOFOS' -> 'stool_consistency'",
+      "Skipped claim for PMID 22959620: out-of-scope claim 'LACTOFOS' -> 'stool_shape'",
+      "Skipped claim for PMID 22959620: out-of-scope claim 'LACTOFOS' -> 'abdominal_pain'",
+      "Skipped claim for PMID 22959620: out-of-scope claim 'LACTOFOS' -> 'bloating'",
+      "Skipped claim for PMID 22959620: out-of-scope claim 'LACTOFOS' -> 'flatulence'",
+      "Skipped claim for PMID 22959620: out-of-scope claim 'LACTOFOS' -> 'AGACHAN_constipation_score'",
+      "Used zero-claim retry after post-processing for PMID 22959620: 4 claims"
+    ],
+    "19064533": [
+      "Skipped claim for PMID 19064533: out-of-scope claim 'Enzymatically hydrolyzed lactotripeptides (ELTP)' -> 'Systolic blood pressure'",
+      "Skipped claim for PMID 19064533: out-of-scope claim 'Enzymatically hydrolyzed lactotripeptides (ELTP)' -> 'Diastolic blood pressure'",
+      "Used zero-claim retry after post-processing for PMID 19064533: 1 claims"
+    ],
+    "34522729": [
+      "Skipped claim for PMID 34522729: out-of-scope claim 'cholesterol' -> 'LDL'",
+      "Skipped claim for PMID 34522729: out-of-scope claim 'triglyceride' -> 'HDL'"
+    ],
+    "21081959": [
+      "Skipped claim for PMID 21081959: out-of-scope claim 'HKBBST' -> 'positive skin prick test to cow's milk'",
+      "Skipped claim for PMID 21081959: out-of-scope claim 'HKBBST' -> 'digestive potentially allergic adverse events'",
+      "Skipped claim for PMID 21081959: out-of-scope claim 'HKBBST' -> 'respiratory potentially allergic adverse events'",
+      "Skipped claim for PMID 21081959: out-of-scope claim 'HKBBST' -> 'respiratory potentially allergic adverse events at 24 months'",
+      "Skipped claim for PMID 21081959: out-of-scope claim 'HKBBST' -> 'cow's milk allergy'",
+      "Used zero-claim retry after post-processing for PMID 21081959: 5 claims"
+    ],
+    "26202995": [
+      "Skipped suspicious food entity 'Placebo lozenge': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "24268677": [
+      "Skipped suspicious food entity 'placebo drink': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "21332798": [
+      "Skipped claim for PMID 21332798: out-of-scope claim 'exhaled nitric oxide (FE(NO))' -> 'asthma'",
+      "Skipped claim for PMID 21332798: out-of-scope claim 'exhaled nitric oxide (FE(NO))' -> 'serum total and allergen-specific IgE'"
+    ],
+    "20224148": [
+      "Skipped suspicious food entity 'placebo formula': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "17141481": [
+      "Skipped claim for PMID 17141481: out-of-scope claim 'anti-H. pylori treatment (clarithromycin, amoxicillin, lansoprazole)' -> 'intestinal microbiota composition'",
+      "Skipped claim for PMID 17141481: out-of-scope claim 'anti-H. pylori treatment (clarithromycin, amoxicillin, lansoprazole)' -> 'predominant bacterial groups'",
+      "Skipped claim for PMID 17141481: out-of-scope claim 'H. pylori infection status' -> 'clostridia counts'",
+      "Skipped claim for PMID 17141481: out-of-scope claim 'H. pylori infection status' -> 'total anaerobes counts'"
+    ],
+    "35938351": [
+      "Skipped claim for PMID 35938351: out-of-scope claim 'Synbio® blend-enriched food product or dietary supplement' -> 'HsCRP (high-sensitivity C-reactive protein)'",
+      "Skipped claim for PMID 35938351: out-of-scope claim 'Synbio® blend-enriched food product or dietary supplement' -> 'Faecal lactobacilli'",
+      "Skipped claim for PMID 35938351: out-of-scope claim 'Synbio® blend-enriched food product or dietary supplement' -> 'Bifidobacteria'",
+      "Skipped claim for PMID 35938351: out-of-scope claim 'Synbio® blend-enriched food product or dietary supplement' -> 'Proteobacteria'",
+      "Skipped claim for PMID 35938351: out-of-scope claim 'Synbio® blend-enriched food product or dietary supplement' -> 'Actinobacteria'",
+      "Skipped claim for PMID 35938351: out-of-scope claim 'Synbio® blend-enriched food product or dietary supplement' -> 'Verrucomicrobia'",
+      "Skipped claim for PMID 35938351: out-of-scope claim 'Synbio® blend-enriched food product or dietary supplement' -> 'Akkermansiaceae'",
+      "Skipped claim for PMID 35938351: out-of-scope claim 'Synbio® blend-enriched food product or dietary supplement' -> 'Bifidobacteriaceae'",
+      "Skipped claim for PMID 35938351: out-of-scope claim 'Synbio® blend-enriched food product or dietary supplement' -> 'Total short-chain fatty acids (SCFAs)'",
+      "Skipped claim for PMID 35938351: out-of-scope claim 'Synbio® blend-enriched food product or dietary supplement' -> 'Butyric acid'",
+      "Used zero-claim retry after post-processing for PMID 35938351: 9 claims"
+    ],
+    "17374660": [
+      "Skipped suspicious food entity 'placebo yogurt beverage': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "32443748": [
+      "Skipped claim for PMID 32443748: out-of-scope claim 'biotics_supplementation' -> 'lactose_intolerance_symptoms'"
+    ],
+    "37782153": [
+      "Skipped claim for PMID 37782153: out-of-scope claim 'NSMD + PT' -> 'Plaque Index'",
+      "Skipped claim for PMID 37782153: out-of-scope claim 'NSMD alone' -> 'Plaque Index'",
+      "Skipped claim for PMID 37782153: out-of-scope claim 'NSMD + PT' -> 'Gingival Index'",
+      "Skipped claim for PMID 37782153: out-of-scope claim 'NSMD alone' -> 'Gingival Index'",
+      "Skipped claim for PMID 37782153: out-of-scope claim 'NSMD + PT' -> 'Probing Depth'",
+      "Skipped claim for PMID 37782153: out-of-scope claim 'NSMD alone' -> 'Probing Depth'",
+      "Skipped claim for PMID 37782153: out-of-scope claim 'NSMD + PT' -> 'Salivary Cortisol Levels'",
+      "Skipped claim for PMID 37782153: out-of-scope claim 'NSMD alone' -> 'Salivary Cortisol Levels'",
+      "Skipped claim for PMID 37782153: out-of-scope claim 'PT + OHI' -> 'Salivary Cortisol Levels'",
+      "Skipped claim for PMID 37782153: out-of-scope claim 'PT alone' -> 'Salivary Cortisol Levels'"
+    ],
+    "21157050": [
+      "Skipped claim for PMID 21157050: out-of-scope claim 'chlorhexidine mouth rinse' -> 'plaque_accumulation'"
+    ],
+    "30294792": [
+      "Skipped claim for PMID 30294792: out-of-scope claim 'rifaximin' -> 'IBS_symptoms'",
+      "Skipped claim for PMID 30294792: out-of-scope claim 'rifaximin' -> 'adverse_events'"
+    ],
+    "24574746": [
+      "Skipped claim for PMID 24574746: out-of-scope claim 'bovine lactoferrin' -> 'helicobacter_eradication'",
+      "Skipped claim for PMID 24574746: out-of-scope claim 'alpha-lactalbumin' -> 'helicobacter_eradication'",
+      "Skipped claim for PMID 24574746: out-of-scope claim 'immunoglobulins' -> 'helicobacter_eradication'",
+      "Skipped claim for PMID 24574746: out-of-scope claim 'glycomacropeptide' -> 'helicobacter_eradication'"
+    ],
+    "21541030": [
+      "Skipped claim for PMID 21541030: out-of-scope claim 'high-temperature meat' -> 'meat mutagenicity'",
+      "Skipped claim for PMID 21541030: out-of-scope claim 'high-temperature meat' -> 'urine mutagenicity'",
+      "Skipped claim for PMID 21541030: out-of-scope claim 'high-temperature meat' -> 'feces mutagenicity'",
+      "Skipped claim for PMID 21541030: out-of-scope claim 'high-temperature meat' -> 'peripheral blood lymphocyte DNA damage'"
+    ],
+    "38826085": [
+      "Skipped claim for PMID 38826085: out-of-scope claim 'marathon race' -> 'IL-15 levels'"
+    ],
+    "24569536": [
+      "Skipped suspicious food entity 'control milk': Suspicious non-food pattern matched: ^control(?:_| )",
+      "Skipped suspicious food entity 'placebo capsules': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "36949381": [
+      "Skipped claim for PMID 36949381: out-of-scope claim 'L. crispatus convolvulus' -> 'uterine fibrosis degree'",
+      "Skipped claim for PMID 36949381: out-of-scope claim 'L. crispatus convolvulus' -> 'IL-1β levels'",
+      "Skipped claim for PMID 36949381: out-of-scope claim 'L. crispatus convolvulus' -> 'TNF-α levels'",
+      "Skipped claim for PMID 36949381: out-of-scope claim 'L. crispatus convolvulus' -> 'TGF-β1/SMADs signaling pathway'",
+      "Skipped claim for PMID 36949381: out-of-scope claim 'L. crispatus convolvulus' -> 'Lactobacillus abundance'",
+      "Skipped claim for PMID 36949381: out-of-scope claim 'L. crispatus convolvulus' -> 'Oscillospira abundance'",
+      "Skipped claim for PMID 36949381: out-of-scope claim 'L. crispatus convolvulus' -> 'intrauterine adhesion prevention'",
+      "Used zero-claim retry after post-processing for PMID 36949381: 4 claims"
+    ],
+    "36437811": [
+      "Skipped suspicious food entity 'placebo_yoghurt': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "30513869": [
+      "Skipped claim for PMID 30513869: out-of-scope claim 'modern diets high in sugar, salt, and saturated fat combined with unhealthy lifestyles' -> 'inflammatory_diseases'",
+      "Skipped claim for PMID 30513869: out-of-scope claim 'inflammatory diseases' -> 'obesity'",
+      "Skipped claim for PMID 30513869: out-of-scope claim 'inflammatory diseases' -> 'depression'",
+      "Skipped claim for PMID 30513869: out-of-scope claim 'inflammatory diseases' -> 'mental_health'"
+    ],
+    "18977549": [
+      "Skipped suspicious food entity 'placebo yoghurt': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "38470623": [
+      "Skipped claim for PMID 38470623: out-of-scope claim 'ayran' -> 'Bristol Stool Scale'"
+    ],
+    "17299467": [
+      "Skipped suspicious food entity 'control_yoghurt': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "40286792": [
+      "Skipped claim for PMID 40286792: out-of-scope claim 'succinate' -> 'constipation (loperamide-induced mouse model)'",
+      "Skipped claim for PMID 40286792: out-of-scope claim '3-indoleacrylic acid' -> 'constipation (loperamide-induced mouse model)'",
+      "Skipped claim for PMID 40286792: out-of-scope claim '5-hydroxytryptophan' -> 'constipation (loperamide-induced mouse model)'"
+    ],
+    "19403951": [
+      "Skipped claim for PMID 19403951: out-of-scope claim 'resistance training' -> 'fat-free mass (FFM)'",
+      "Skipped claim for PMID 19403951: out-of-scope claim 'resistance training' -> 'body fat percentage (%BF)'",
+      "Skipped claim for PMID 19403951: out-of-scope claim 'resistance training' -> 'resting metabolic rate (RMR)'",
+      "Skipped claim for PMID 19403951: out-of-scope claim 'resistance training' -> 'fat oxidation (FO)'"
+    ],
+    "9881885": [
+      "Skipped claim for PMID 9881885: missing legacy direction for 'lactobacillus_casei_strain_shirota_fermented_milk' -> 'clostridium_count'"
+    ],
+    "28593244": [
+      "Skipped suspicious food entity 'control yogurt': Suspicious non-food pattern matched: ^control(?:_| )"
+    ],
+    "31652407": [
+      "Skipped suspicious food entity 'Placebo pudding': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "7572723": [
+      "Skipped claim for PMID 7572723: out-of-scope claim 'rate of rise of hydrogen curve' -> 'symptoms'"
+    ],
+    "31387262": [
+      "Skipped claim for PMID 31387262: out-of-scope claim 'sauerkraut' -> 'gastrointestinal_health'",
+      "Skipped claim for PMID 31387262: out-of-scope claim 'natto' -> 'gastrointestinal_health'",
+      "Skipped claim for PMID 31387262: out-of-scope claim 'sourdough_bread' -> 'gastrointestinal_health'",
+      "Skipped claim for PMID 31387262: out-of-scope claim 'miso' -> 'gastrointestinal_health'",
+      "Skipped claim for PMID 31387262: out-of-scope claim 'tempeh' -> 'gastrointestinal_health'"
+    ],
+    "37110420": [
+      "Skipped claim for PMID 37110420: out-of-scope claim 'plant-based products' -> 'psychobiotic_viability'"
+    ],
+    "20147968": [
+      "Skipped suspicious food entity 'placebo (chemically acidified milk)': Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "26243890": [
+      "Skipped claim for PMID 26243890: out-of-scope claim 'microencapsulation' -> 'probiotic_viability'",
+      "Skipped claim for PMID 26243890: out-of-scope claim 'microencapsulation' -> 'gastrointestinal_survival'"
+    ],
+    "40307477": [
+      "Skipped claim for PMID 40307477: out-of-scope claim 'gut microbiota-targeted therapies' -> 'gut_microbiota'",
+      "Skipped claim for PMID 40307477: out-of-scope claim 'gut microbiota-targeted therapies' -> 'gut_barrier_function'",
+      "Skipped claim for PMID 40307477: out-of-scope claim 'gut microbiota-targeted therapies' -> 'uremic_toxins'",
+      "Skipped claim for PMID 40307477: out-of-scope claim 'gut microbiota-targeted therapies' -> 'short-chain_fatty_acids'",
+      "Skipped claim for PMID 40307477: out-of-scope claim 'gut microbiota-targeted therapies' -> 'inflammation'"
+    ],
+    "25627884": [
+      "Skipped claim for PMID 25627884: out-of-scope claim 'Batavito' -> 'total cultivable anaerobes and facultative microorganisms in biofilms'",
+      "Skipped claim for PMID 25627884: out-of-scope claim 'Batavito' -> 'final enamel microhardness'",
+      "Skipped claim for PMID 25627884: out-of-scope claim 'Batavito' -> 'percentage change in surface hardness'",
+      "Skipped claim for PMID 25627884: out-of-scope claim 'Batavito' -> 'integrated subsurface enamel hardness'",
+      "Skipped claim for PMID 25627884: out-of-scope claim 'Batavito' -> 'salivary microbial counts'",
+      "Skipped claim for PMID 25627884: out-of-scope claim 'Yakult' -> 'salivary microbial counts'",
+      "Used zero-claim retry after post-processing for PMID 25627884: 4 claims"
+    ],
+    "20113315": [
+      "Skipped suspicious food entity 'placebo': Blacklisted food term: placebo; Suspicious non-food pattern matched: ^placebo(?:_| )?"
+    ],
+    "16837430": [
+      "Skipped claim for PMID 16837430: out-of-scope claim 'infant formula' -> 'fecal Bifidobacterium counts'",
+      "Skipped claim for PMID 16837430: out-of-scope claim 'breastfeeding' -> 'fecal Bifidobacterium counts'",
+      "Skipped claim for PMID 16837430: out-of-scope claim 'breastfeeding' -> 'fecal Lactobacillus counts'",
+      "Skipped claim for PMID 16837430: out-of-scope claim 'breastfeeding' -> 'fecal enterobacteria counts'"
+    ],
+    "24695887": [
+      "Skipped claim for PMID 24695887: missing legacy direction for 'yogurt' -> 'waist_circumference'",
+      "Skipped claim for PMID 24695887: missing legacy direction for 'yogurt' -> 'body_weight'"
+    ],
+    "23685373": [
+      "Skipped claim for PMID 23685373: out-of-scope claim 'galacto-oligosaccharides' -> 'serum free p-cresol'",
+      "Skipped claim for PMID 23685373: out-of-scope claim 'galacto-oligosaccharides' -> 'skin conditions'"
+    ],
+    "28945458": [
+      "Skipped claim for PMID 28945458: out-of-scope claim 'conjugated linoleic acids' -> 'blood_pressure'",
+      "Skipped claim for PMID 28945458: out-of-scope claim 'exopolysaccharides' -> 'prebiotic_properties'",
+      "Skipped claim for PMID 28945458: out-of-scope claim 'bacteriocins' -> 'antimicrobial_activity'",
+      "Skipped claim for PMID 28945458: out-of-scope claim 'sphingolipids' -> 'cancer_risk'",
+      "Skipped claim for PMID 28945458: out-of-scope claim 'sphingolipids' -> 'antimicrobial_activity'",
+      "Skipped claim for PMID 28945458: out-of-scope claim 'bioactive peptides' -> 'antioxidant_capacity'",
+      "Skipped claim for PMID 28945458: out-of-scope claim 'bioactive peptides' -> 'antimicrobial_activity'",
+      "Skipped claim for PMID 28945458: out-of-scope claim 'bioactive peptides' -> 'blood_pressure'",
+      "Skipped claim for PMID 28945458: out-of-scope claim 'bioactive peptides' -> 'allergy'"
+    ],
+    "36514754": [
+      "Skipped claim for PMID 36514754: out-of-scope claim 'miso' -> 'chronic_disease_risk'",
+      "Skipped claim for PMID 36514754: out-of-scope claim 'miso' -> 'cancer_risk'",
+      "Skipped claim for PMID 36514754: out-of-scope claim 'miso' -> 'microbial_infection_risk'",
+      "Skipped claim for PMID 36514754: out-of-scope claim 'miso' -> 'obesity_risk'",
+      "Skipped claim for PMID 36514754: out-of-scope claim 'miso' -> 'nutritional_status'"
+    ],
+    "28315049": [
+      "Skipped claim for PMID 28315049: out-of-scope claim 'hypertension' -> 'gut_microbiota_diversity'",
+      "Skipped claim for PMID 28315049: out-of-scope claim 'hypertension' -> 'acetate-producing_bacteria'",
+      "Skipped claim for PMID 28315049: out-of-scope claim 'hypertension' -> 'butyrate-producing_bacteria'",
+      "Skipped claim for PMID 28315049: out-of-scope claim 'hypertension' -> 'lactate-producing_bacteria'",
+      "Skipped claim for PMID 28315049: out-of-scope claim 'hypertension' -> 'Firmicutes/Bacteroidetes_ratio'"
+    ],
+    "35181072": [
+      "Skipped claim for PMID 35181072: unsupported subject type 'other' for 'gut bacteria'",
+      "Skipped claim for PMID 35181072: unsupported subject type 'other' for 'diet, stress, and aging'"
+    ],
+    "32059387": [
+      "Skipped claim for PMID 32059387: out-of-scope claim 'table olives' -> 'health_promoting_properties'"
+    ],
+    "33557521": [
+      "Skipped claim for PMID 33557521: out-of-scope claim 'cyanocobalamin-enriched spinach' -> 'CNCBL concentration in spinach'",
+      "Skipped claim for PMID 33557521: out-of-scope claim 'cyanocobalamin-enriched spinach' -> 'CNCBL retention after boiling'",
+      "Skipped claim for PMID 33557521: out-of-scope claim 'spinach + cyanocobalamin combination' -> 'Bacteroides relative abundance'",
+      "Skipped claim for PMID 33557521: out-of-scope claim 'spinach + cyanocobalamin combination' -> 'Firmicutes relative abundance'",
+      "Skipped claim for PMID 33557521: out-of-scope claim 'spinach + cyanocobalamin combination' -> 'Proteobacteria relative abundance'",
+      "Skipped claim for PMID 33557521: out-of-scope claim 'spinach + cyanocobalamin combination' -> 'Escherichia spp. relative abundance'",
+      "Skipped claim for PMID 33557521: out-of-scope claim 'cobalamin-rich spinach' -> 'propionate'",
+      "Skipped claim for PMID 33557521: out-of-scope claim 'cobalamin-rich spinach' -> 'butyrate'"
+    ],
+    "35606889": [
+      "Skipped claim for PMID 35606889: out-of-scope claim 'microbiome-targeted dietary intervention' -> 'study completion rate'",
+      "Skipped claim for PMID 35606889: out-of-scope claim 'microbiome-targeted dietary intervention' -> 'adherence to dietary protocol'",
+      "Skipped claim for PMID 35606889: out-of-scope claim 'microbiome-targeted dietary intervention' -> 'adverse events'",
+      "Skipped claim for PMID 35606889: out-of-scope claim 'microbiome-targeted dietary intervention' -> 'treatment acceptability'",
+      "Skipped claim for PMID 35606889: out-of-scope claim 'microbiome-targeted dietary intervention' -> 'outcome measure suitability'"
+    ],
+    "37116481": [
+      "Skipped claim for PMID 37116481: out-of-scope claim 'injera' -> 'gut microbiome diversity'",
+      "Skipped claim for PMID 37116481: out-of-scope claim 'non-westernized lifestyle' -> 'mother-infant microbiome sharing'",
+      "Skipped claim for PMID 37116481: out-of-scope claim 'uncharacterized species' -> 'mother-infant microbiome sharing'",
+      "Skipped claim for PMID 37116481: out-of-scope claim 'Selenomonadaceae and Prevotellaceae families' -> 'presence and sharing in specific population'"
+    ],
+    "37538862": [
+      "Skipped claim for PMID 37538862: out-of-scope claim 'Natto' -> 'thrombolysis'",
+      "Skipped claim for PMID 37538862: out-of-scope claim 'Natto' -> 'osteoporosis'",
+      "Skipped claim for PMID 37538862: out-of-scope claim 'Natto' -> 'antibacterial'",
+      "Skipped claim for PMID 37538862: out-of-scope claim 'Natto' -> 'anticancer'",
+      "Skipped claim for PMID 37538862: out-of-scope claim 'Natto' -> 'antioxidant'"
+    ],
+    "34345117": [
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Korean traditional foods' -> 'antiviral_properties'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Meju' -> 'gut_lung_immunity'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Doenjang' -> 'gut_lung_immunity'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Jeotgal' -> 'gut_lung_immunity'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Mekgeolli' -> 'gut_lung_immunity'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Korean traditional foods' -> 'antioxidative'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Korean traditional foods' -> 'anti_inflammatory'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Korean traditional foods' -> 'antibacterial'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Korean traditional foods' -> 'antidiabetic'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Korean traditional foods' -> 'chemopreventive'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Korean traditional diet' -> 'ACE2_receptors'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'healthy eating pattern' -> 'immune_system'",
+      "Skipped claim for PMID 34345117: out-of-scope claim 'Korean traditional foods' -> 'gut_microbiota'"
+    ],
+    "38538520": [
+      "Skipped claim for PMID 38538520: out-of-scope claim 'tempeh' -> 'nutrient_bioavailability'",
+      "Skipped claim for PMID 38538520: out-of-scope claim 'tempeh' -> 'oxidative_stress'",
+      "Skipped claim for PMID 38538520: out-of-scope claim 'tempeh' -> 'glycaemic_control'",
+      "Skipped claim for PMID 38538520: out-of-scope claim 'tempeh' -> 'blood_lipids'",
+      "Skipped claim for PMID 38538520: out-of-scope claim 'tempeh' -> 'protein_intake'",
+      "Skipped claim for PMID 38538520: out-of-scope claim 'tempeh' -> 'mineral_bioavailability'",
+      "Skipped claim for PMID 38538520: out-of-scope claim 'tempeh' -> 'biopeptides'"
+    ],
+    "37364321": [
+      "Skipped claim for PMID 37364321: out-of-scope claim 'Laal dahi microbiome' -> 'Microbiome composition'",
+      "Skipped claim for PMID 37364321: out-of-scope claim 'Laal dahi microbiome' -> 'Unique species detection'",
+      "Skipped claim for PMID 37364321: out-of-scope claim 'MAGs secondary metabolite gene clusters' -> 'Antimicrobial peptide production'",
+      "Skipped claim for PMID 37364321: out-of-scope claim 'MAGs CRISPR-Cas elements' -> 'CRISPR-Cas elements'"
+    ],
+    "31955786": [
+      "Skipped claim for PMID 31955786: out-of-scope claim 'roasting' -> 'neuroactive_compound_profile'",
+      "Skipped claim for PMID 31955786: out-of-scope claim 'malting' -> 'neuroactive_compound_profile'",
+      "Skipped claim for PMID 31955786: out-of-scope claim 'gut microbiota' -> 'mental_health'",
+      "Skipped claim for PMID 31955786: out-of-scope claim 'diet' -> 'neuroactive_compounds'"
+    ],
+    "41424069": [
+      "Skipped claim for PMID 41424069: out-of-scope claim 'gut microbiota transplantation' -> 'inflammatory_markers'",
+      "Skipped claim for PMID 41424069: out-of-scope claim 'gut microbiota transplantation' -> 'muscle_atrophy_markers'"
+    ],
+    "41760689": [
+      "Skipped claim for PMID 41760689: out-of-scope claim 'Tempeh' -> 'antioxidant_activity'",
+      "Skipped claim for PMID 41760689: out-of-scope claim 'Tempeh' -> 'ace_inhibitory_activity'",
+      "Skipped claim for PMID 41760689: out-of-scope claim 'Tempeh' -> 'gaba_levels'",
+      "Skipped claim for PMID 41760689: out-of-scope claim 'Tempeh' -> 'amino_acid_levels'",
+      "Skipped claim for PMID 41760689: out-of-scope claim 'Tempeh' -> 'isoflavone_aglycone_levels'",
+      "Skipped claim for PMID 41760689: out-of-scope claim 'Tempeh' -> 'phytate_degradation'",
+      "Skipped claim for PMID 41760689: out-of-scope claim 'Tempeh' -> 'protein_digestibility'"
+    ],
+    "36657442": [
+      "Skipped claim for PMID 36657442: out-of-scope claim 'microbial foods' -> 'human_health'",
+      "Skipped claim for PMID 36657442: out-of-scope claim 'microbial foods' -> 'environmental_footprint'",
+      "Skipped claim for PMID 36657442: out-of-scope claim 'science-driven fermentation' -> 'sustainability'",
+      "Skipped claim for PMID 36657442: out-of-scope claim 'science-driven fermentation' -> 'resilience'",
+      "Skipped claim for PMID 36657442: out-of-scope claim 'synthetic biology applications' -> 'health_effects'"
+    ],
+    "34836072": [
+      "Skipped claim for PMID 34836072: out-of-scope claim 'red gut microbiota cluster' -> 'T2DM prevalence'",
+      "Skipped claim for PMID 34836072: out-of-scope claim 'red gut microbiota cluster' -> 'Bifidobacterium abundance'",
+      "Skipped claim for PMID 34836072: out-of-scope claim 'red gut microbiota cluster' -> 'Lactobacillus abundance'",
+      "Skipped claim for PMID 34836072: out-of-scope claim 'red gut microbiota cluster' -> 'Blautia abundance'",
+      "Skipped claim for PMID 34836072: out-of-scope claim 'red gut microbiota cluster' -> 'Phascolarctobacterium abundance'",
+      "Skipped claim for PMID 34836072: out-of-scope claim 'miso soup' -> 'T2DM prevalence'",
+      "Skipped claim for PMID 34836072: out-of-scope claim 'α-glucosidase inhibitors' -> 'T2DM prevalence'",
+      "Skipped claim for PMID 34836072: out-of-scope claim 'glinide medications' -> 'T2DM prevalence'"
+    ],
+    "41185344": [
+      "Skipped claim for PMID 41185344: out-of-scope claim 'encapsulation_physical_barrier' -> 'oxidative_degradation'",
+      "Skipped claim for PMID 41185344: out-of-scope claim 'encapsulation_controlled_release' -> 'bioavailability'"
+    ],
+    "33336970": [
+      "Skipped claim for PMID 33336970: out-of-scope claim 'metaproteomics' -> 'microbial_functions'",
+      "Skipped claim for PMID 33336970: out-of-scope claim 'metaproteomics' -> 'functional_diversity_of_microbial_communities'",
+      "Skipped claim for PMID 33336970: out-of-scope claim 'metaproteomics' -> 'microbial_community_clarification'"
+    ],
+    "33569911": [
+      "Skipped claim for PMID 33569911: out-of-scope claim 'tempeh' -> 'health_promotion'",
+      "Skipped claim for PMID 33569911: out-of-scope claim 'tempeh' -> 'protein_quality'"
+    ],
+    "30733472": [
+      "Skipped claim for PMID 30733472: out-of-scope claim 'Chinese population gut microbiota' -> 'core bacterial genera presence'",
+      "Skipped claim for PMID 30733472: out-of-scope claim 'disease-related microorganisms (DRMs)' -> 'distribution patterns'"
+    ],
+    "38809796": [
+      "Skipped suspicious food entity 'placebo capsule with maltodextrin and breadcrumbs': Suspicious non-food pattern matched: ^placebo(?:_| )?",
+      "Skipped claim for PMID 38809796: out-of-scope claim 'placebo capsule with maltodextrin and breadcrumbs' -> 'IL-9 level'"
+    ],
+    "36832762": [
+      "Skipped claim for PMID 36832762: out-of-scope claim 'intestinal microbiome' -> 'non-communicable diseases'"
+    ]
+  },
+  "suspicious_foods": [],
+  "over_specific_foods": [
+    "amino-acid-based_formula_with_synbiotic_blend",
+    "amino_acid-based_formula_supplemented_with_synbiotics",
+    "amino_acid-based_formula_with_synbiotics",
+    "bacillus_coagulans_gbi-30,_6086_capsule_probiotic",
+    "bioactive_peptides_from_fermented_proteins",
+    "breastfeeding_and_fiber-rich_and_fermented_foods",
+    "chinese_acid-curd_cheese-derived_bioactive_peptides",
+    "combination_probiotic_product_(lactobacillus_rhamnosus_r0011_and_l._helveticus_r0052)",
+    "combined_bifidobacteriales_and_lactobacillales_formulations",
+    "combined_phytochemicals_from_fermented_foods",
+    "combined_prebiotic_and_probiotic_supplementation",
+    "cruciferous_vegetables_yogurt_chlorophyllin_tablets_combination",
+    "d-fortified_yogurt_drink_(dy)_or_ca+d-fortified_yogurt_drink_(cdy)",
+    "dairy_foods_(milk,_yoghurt,_cheese)",
+    "dairy_yogurt_containing_l._paracasei,_b._lactis_and_heat-treated_l._plantarum",
+    "dairy_yogurt_with_hallabong_peel_polysaccharide",
+    "dietary_intake_(grains,_grain-based_products,_milk_and_milk_products,_beverages)",
+    "encrypted_peptides_from_fermented_food",
+    "fabuless_(olibra)_lipid_emulsion_with_yoghurt",
+    "fermented_and_unfermented_milk_products_with_probiotics",
+    "fermented_dairy_drink_with_lactobacillus_casei_dn-114_001",
+    "fermented_dairy_foods_(cheese,_yoghurt)",
+    "fermented_dairy_products_with_probiotics",
+    "fermented_food_with_specific_microbiota",
+    "fermented_milk_and_whey_proteins",
+    "fermented_milk_containing_b._lactis_dn-173010_and_yogurt_strains",
+    "fermented_milk_containing_l._casei_dn-114_001_and_s._thermophilus",
+    "fermented_milk_containing_multiple_probiotic_strains_and_prebiotic_fiber",
+    "fermented_milk_prepared_with_lgg_and_tmc0356",
+    "fermented_milk_products_containing_probiotics_and_prebiotics",
+    "fermented_milk_vs_unfermented_dairy",
+    "fermented_milk_with_bifidobacterium_breve_yakult_and_gos",
+    "fermented_milk_with_probiotics_and_inulin",
+    "fermented_milk_without_lg2055",
+    "fermented_milks_with_limosilactobacillus_fermentum_j20_and_j23",
+    "fermented_oat_bran-based_beverage_with_exopolysaccharides",
+    "fermented_oat_bran-based_beverage_without_exopolysaccharides",
+    "fermented_protein_ingredients_and_products",
+    "five_mags_(lactobacillus_delbrueckii,_lb._helveticus,_lc._chungangensis,_lc._lactis,_s._thermophilus)",
+    "frozen_yoghurt_with_20_g_soya_bean_lecithin",
+    "full-fat_dairy_foods_(butter,_cream,_yoghurt,_cheese)",
+    "functional_fermented_milk_containing_borage_oil,_green_tea_and_vitamin_e",
+    "golden_bifid_+_changmei_combination_probiotic_supplement",
+    "greek_yogurt_and_cheddar_cheese",
+    "heat-killed_bifidobacterium_breve_c50_and_streptococcus_thermophilus_065_fermented_milk_formula",
+    "heat-killed_lactobacillus_paracasei_k71_supplement",
+    "heat-killed_probiotic_lozenge_(l._salivarius_subsp._salicinius_ap-32,_l._paracasei_et-66)",
+    "high-fat_to_low-fat_dairy_consumption_ratio",
+    "high-protein_breakfast_yoghurt_with_added_total_whey_protein",
+    "high-protein_breakfast_yoghurt_with_caseinomacropeptide-depleted_alpha-lactalbumin-enriched_whey_protein",
+    "i3.1_probiotic_formulation_(without_prebiotic)",
+    "i3.1_synbiotic_(probiotic_+_fiber-based_prebiotic)",
+    "ibp-9414",
+    "infant_formula_with_bifidobacterium_breve_c50_and_streptococcus_thermophilus",
+    "iron-fortified_fermented_milk_beverage_without_probiotic",
+    "ivs-1_+_gos_synbiotic_combination",
+    "kaiku's_benecol_drinkable_yogurt_with_plant_stanol_esters",
+    "l._casei_shirota_+_agave_salmiana_fructans_synbiotic",
+    "l._casei_shirota_+_inulin_synbiotic",
+    "lab4p_probiotic_consortium",
+    "lactic_acid_bacterial_strains_from_traditional_bulgarian_dairy_products",
+    "lactiplantibacillus_plantarum_twk10_probiotic_supplement_combined_with_hiit",
+    "lactobacillus_acidophilus_ncfm_and_bifidobacterium_animalis_subsp._lactis_bi-07_combination",
+    "lactobacillus_plantarum_299_and_bifidobacterium_cure21_probiotic_combination",
+    "lactobacillus_rhamnosus_gg_and_l._rhamnosus/l._helveticus_combination_probiotic",
+    "lactotripeptide-enriched_yogurt_beverage_with_meal",
+    "live_multistrain_probiotic_co-supplemented_with_omega-3_pufas",
+    "low-fat_and_full-fat_dairy_foods",
+    "low-fat_dairy_products_(low-fat_milk_and_low-fat_yogurt)",
+    "low-fat_low-lactose_yoghurt_enriched_with_plant_sterol",
+    "low-fat_yoghurt_supplemented_with_whey_mpm",
+    "low-fat_yogurt_fortified_with_1500_iu_nano-encapsulated_vitamin_d3",
+    "low-fat_yogurt_fortified_with_nano-encapsulated_vitamin_d",
+    "low-fat_yogurt_with_plant_sterols_(1.6_g/d)",
+    "lu+b420_synbiotic",
+    "maternal_probiotic_intervention_with_lacticaseibacillus_rhamnosus_lpr_and_bifidobacterium_longum_bl999_or_lacticaseibacillus_paracasei_st11_and_bifidobacterium_longum_bl999",
+    "microencapsulated_bsh-active_l._reuteri_ncimb_30242_yoghurt",
+    "milk_fermented_by_yogurt_cultures_plus_lactobacillus_casei_dn-114001",
+    "milk_fermented_with_lactobacillus_casei_dn114001",
+    "milk_proteins,_peptides,_probiotic_lactic_acid_bacteria,_calcium_and_other_minerals",
+    "mix_of_2'-fucosyllactose_and_lacto-n-neotetraose",
+    "multistrain_formulations_containing_lactobacillus,_bifidobacterium,_or_lactiplantibacillus_plantarum",
+    "multistrain_probiotics_diluted_in_human_milk/formula",
+    "non-fermented_dairy_foods_(butter,_cream,_ice_cream)",
+    "normal-protein_breakfast_yoghurt_with_whole_milk",
+    "normal-protein_yogurt_with_vitamin_d3",
+    "nutraceutical_product_with_probiotics,_vitamin_d,_plus_banaba_leaf_extracts_(lagerstroemia_speciosa)",
+    "oral_synbiotic_preparation_(lactobacillus_plantarum_and_fructo-oligosaccharides)",
+    "partially_hydrolyzed_whey-based_protein_formula_with_synbiotic_mixture_(scgos/lcfos_9:1_+_bifidobacterium_breve_m-16v)",
+    "petit-suisse_cheese_(strawberry_flavor_with_green_banana_flour)_with_l._casei",
+    "phytosterol-enriched_foods_(bread_and_milk)",
+    "phytosterol-enriched_foods_(milk_and_bread)",
+    "plant-based_fermented_foods_and_drinks",
+    "plant_stanol_yogurt_drink_+_simvastatin_combination",
+    "plant_sterol-enriched_single-dose_yoghurt_drink_(with_meal,_drink_a)",
+    "plant_sterol-enriched_single-dose_yoghurt_drink_(with_meal,_drink_b)",
+    "plant_sterol-enriched_single-dose_yoghurt_drink_(without_meal,_drink_a)",
+    "plant_sterol-enriched_single-dose_yoghurt_drink_(without_meal,_drink_b)",
+    "postbiotic_formula_with_additional_modifications",
+    "postbiotic_lozenge_(l._salivarius_subsp._salicinius_ap-32,_l._paracasei_et-66,_l._plantarum_lpl28)",
+    "pre-probiotic_supplement_(inulin+oligofructose_with_yogurt)",
+    "prebiotic_formula_(scgos/lcfos_9:1_mixture)",
+    "pro+sm_(specifically_tailored_multistrain_probiotic_powder_and_specific_micronutrient_mixture)",
+    "probiotic_and_dietary_fibre_fermented_milk_(pfm)",
+    "probiotic_and_prebiotic_fermented_milk_containing_bifidobacterium_breve_strain_yakult_and_galacto-oligosaccharides",
+    "probiotic_blend_containing_streptococcus_thermophilus_fp4_and_bifidobacterium_breve_br03",
+    "probiotic_blend_of_bifidobacterium_lactis_cct_7858_and_lactobacillus_rhamnosus_cct_7863",
+    "probiotic_capsules_(l._acidophilus_la5_+_b._animalis_subsp_lactis_bb12)",
+    "probiotic_capsules_containing_lactobacillus_rhamnosus_gr-1_and_lactobacillus_reuteri_rc-14",
+    "probiotic_cheese_with_lactobacillus_plantarum_tensia",
+    "probiotic_combination_of_lactobacillus_salivarius_ls01_and_bifidobacterium_breve_br03",
+    "probiotic_compounds_(4_strains)",
+    "probiotic_dairy_products_with_lactobacillus_plantarum_tensia",
+    "probiotic_formula_with_la1",
+    "probiotic_lactobacillus_rhamnosus_cgmcc_1.3724_with_peanut_oral_immunotherapy",
+    "probiotic_lozenge_containing_lactobacillus_reuteri_dsm_17938_and_atcc_pta_5289",
+    "probiotic_lozenges_containing_lactobacillus_reuteri",
+    "probiotic_mixture_(4_bifidobacterium_strains_+_1_lacticaseibacillus_strain)",
+    "probiotic_mixture_(lactobacillus_acidophilus_la-14,_lactobacillus_casei_lc-11,_lactococcus_lactis_ll-23,_bifidobacterium_bifidum_bb-06,_and_bifidobacterium_lactis_bl-4)",
+    "probiotic_or_probiotic_combination_therapy",
+    "probiotic_preparation_(lactobacillus_helveticus_rosell®-52_and_bifidobacterium_longum_rosell®-175)",
+    "probiotic_product_(lactobacillus_casei_zhang,_lactobacillus_plantarum_p-8,_bifidobacterium_animalis_subsp._lactis_v9)",
+    "probiotic_products_for_household_food_preparation",
+    "probiotic_supplement_(lactobacillus_acidophilus_dds-1_or_bifidobacterium_animalis_subsp._lactis_uabla-12)",
+    "probiotic_supplementation_(lp299_and_cure21_combined)",
+    "probiotic_yoghurt_(l._acidophilus_la5_+_b._animalis_subsp_lactis_bb12)",
+    "probiotic_yoghurt_with_lactobacillus_plantarum_tensia",
+    "probiotic_yogurt_and_acidified_milk",
+    "probiotic_yogurt_vs_acidified_milk",
+    "probiotics_(lactobacillus_acidophilus,_bifidobacterium_bifidum,_and_lactobacillus_casei)",
+    "probiotics_+_fish_oil_combination",
+    "probiotics_combined_with_bariatric_surgery",
+    "probiotics_combined_with_enteral_nutrition",
+    "probiotics_containing_lactobacillus_and_bifidobacterium",
+    "rifaximin_followed_by_bifidobacterium_longum_w11",
+    "sbd111_synbiotic_medical_food",
+    "single_strain_starter_culture_(ssn_characteristic)",
+    "skim_milk_and_whole_milk",
+    "synbiotic_2000",
+    "synbiotic_2000®",
+    "synbiotic_capsule_containing_lactobacillus_acidophilus_strain_t16,_l._casei_strain_t2,_and_bifidobacterium_bifidum_strain_t1_plus_inulin",
+    "synbiotic_capsules_with_seven_strains_of_friendly_bacteria_plus_fructo-oligosaccharide",
+    "synbiotic_product_containing_lactobacillus_gasseri_cho-220_and_inulin",
+    "synbiotic_yogurt_with_lgg_and_fos_actilight",
+    "synbiotics_combined_with_enteral_nutrition",
+    "test_yoghurt_with_gos_prunes_linseed",
+    "traditional_bulgarian_fermented_dairy_products",
+    "traditional_fermented_foods_or_beverages",
+    "traditional_fermented_foods_with_added_probiotic_health_features",
+    "vitamin_d-fortified_yogurt_drink_(dy)_and_vitamin_d_calcium_fortified_yogurt_drink",
+    "vitamin_d3_+_probiotic_combination",
+    "vsl#3_probiotic_preparation",
+    "yogurt_and_fermented_milk_products",
+    "yogurt_and_honey_vaginal_cream",
+    "yogurt_and_other_fermented_foods",
+    "yogurt_and_rolled_oats_combined",
+    "yogurt_fermented_with_l._bulgaricus_oll1073r-1",
+    "yogurt_fermented_with_lactobacillus_delbrueckii_ssp._bulgaricus_oll1073r-1",
+    "yogurt_with_active_live_culture"
+  ],
+  "top_foods": [
+    [
+      "probiotic_supplement",
+      323
+    ],
+    [
+      "kefir",
+      176
+    ],
+    [
+      "probiotics",
+      163
+    ],
+    [
+      "probiotic_yogurt",
+      151
+    ],
+    [
+      "yogurt",
+      135
+    ],
+    [
+      "fermented_milk",
+      128
+    ],
+    [
+      "multi_strain_probiotic_formulation",
+      106
+    ],
+    [
+      "synbiotic_supplement",
+      80
+    ],
+    [
+      "kombucha",
+      75
+    ],
+    [
+      "fermented_foods",
+      44
+    ]
+  ],
+  "review_recommendation": {
+    "should_run_batch_review": true,
+    "reasons": [
+      "over_specific_food_entities_detected",
+      "build_time_validation_warnings_present",
+      "high_zero_claim_tail"
+    ]
+  }
+}
