@@ -1,12 +1,12 @@
 # Food-AI
 
-**Food-AI** is a claim-centric evidence graph and agentic retrieval framework for fermented food and probiotic literature.
+**Food-AI** is a claim-centric literature graph for mapping fermented food and probiotic health-function evidence.
 
 This repository is the code and reproducibility package for the manuscript:
 
-> *Food-AI: A Claim-Centric Evidence Graph and Agentic Retrieval Framework for Fermented Food and Probiotic Literature*
+> *Mapping fermented food and probiotic health-function evidence with a claim-centric literature graph*
 
-The repository contains the core Python package, extraction/evaluation scripts, query-agent code, tests, and the paper-facing graph/evaluation bundle. It intentionally excludes manuscript source files, internal project-management notes, raw logs, local environments, and temporary development artifacts.
+The repository contains the core Python package, extraction/evaluation scripts, read-only evidence-query agent code, tests, and the paper-facing graph/evaluation bundle. It intentionally excludes manuscript source files, internal project-management notes, raw logs, local environments, and temporary development artifacts.
 
 ## Repository contents
 

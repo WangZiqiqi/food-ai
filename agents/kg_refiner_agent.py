@@ -57,13 +57,13 @@ Your task is to analyze and improve the quality of a food-health knowledge graph
 
 ## Context
 
-This is a V3 Claim-Centric knowledge graph built from 141 PubMed papers about fermented foods and probiotics.
-The graph has 873 nodes (419 claims, 454 entities) and 838 edges.
+This is a V3 claim-centric knowledge graph built from 850 PubMed records about fermented foods and probiotics.
+The frozen public graph has 6,963 nodes (3,786 claims and 3,177 entity nodes) and 7,572 edges.
 
-Known issues:
-- Some non-food entities may be misclassified as 'food' (e.g., 'male_sex')
-- Some entities may be duplicates (e.g., 'kombucha' vs 'kombucha_consumption')
-- Some entities may be overly specific variants (e.g., 6 types of black tea kombucha blends)
+Known quality-review targets:
+- Some entities may be duplicates or near-duplicates.
+- Some entities may be overly specific food/formulation variants.
+- Some claims may need inspection for graph-relative evidence gaps or ambiguous health interpretation.
 
 ## Your Task
 
