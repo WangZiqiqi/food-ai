@@ -1,0 +1,105 @@
+{
+  "reviewed_file": "data/evaluation/independent_food_science_questions_v1_reviewed.csv",
+  "source_agent_results": "data/evaluation/independent_questions_v1_agent_results.json",
+  "date": "2026-06-03",
+  "overall": {
+    "count": 55,
+    "answer_usefulness": 4.273,
+    "pmid_traceability": 0.919,
+    "abstention_or_boundary_honesty": 0.843,
+    "usefulness_ge4_rate": 0.836,
+    "traceability_ge075_rate": 0.964
+  },
+  "by_a_priori_expectation": {
+    "boundary": {
+      "count": 19,
+      "answer_usefulness": 3.842,
+      "pmid_traceability": 0.845,
+      "abstention_or_boundary_honesty": 0.776,
+      "usefulness_ge4_rate": 0.632,
+      "traceability_ge075_rate": 0.895
+    },
+    "likely_answerable": {
+      "count": 28,
+      "answer_usefulness": 4.482,
+      "pmid_traceability": 0.964,
+      "abstention_or_boundary_honesty": null,
+      "usefulness_ge4_rate": 0.929,
+      "traceability_ge075_rate": 1.0
+    },
+    "likely_no_answer": {
+      "count": 8,
+      "answer_usefulness": 4.562,
+      "pmid_traceability": 0.938,
+      "abstention_or_boundary_honesty": 1.0,
+      "usefulness_ge4_rate": 1.0,
+      "traceability_ge075_rate": 1.0
+    }
+  },
+  "follow_up_cases": [
+    {
+      "id": "ind_008",
+      "usefulness": 3.5,
+      "traceability": 0.75,
+      "honesty": null,
+      "notes": "Covers both kefir and probiotic yogurt, but the comparative conclusion that kefir is more consistent is somewhat stronger than the heterogeneous evidence warrants."
+    },
+    {
+      "id": "ind_012",
+      "usefulness": 3.0,
+      "traceability": 0.5,
+      "honesty": 0.5,
+      "notes": "Partially useful but overstates kombucha evidence for human gut microbiota; much support is review/animal or salivary microbiota rather than direct human fecal gut microbiota."
+    },
+    {
+      "id": "ind_015",
+      "usefulness": 3.5,
+      "traceability": 0.75,
+      "honesty": 0.5,
+      "notes": "Useful but somewhat overconfident for hard CVD endpoints; much evidence is observational, surrogate, or broad fermented-food category rather than direct clinical endpoint evidence."
+    },
+    {
+      "id": "ind_017",
+      "usefulness": 3.5,
+      "traceability": 0.75,
+      "honesty": null,
+      "notes": "Generally supported TNF-alpha answer, but mixes human supplementation, fermented milk, enteral nutrition, vaginal/animal-model evidence; should be more restrictive."
+    },
+    {
+      "id": "ind_021",
+      "usefulness": 3.5,
+      "traceability": 0.75,
+      "honesty": 0.8,
+      "notes": "Relevant but intersection is thin; direct waist evidence is partly diet-combined or WHR rather than waist circumference alone. Caveats are adequate."
+    },
+    {
+      "id": "ind_035",
+      "usefulness": 3.0,
+      "traceability": 0.75,
+      "honesty": 0.5,
+      "notes": "Partially useful but overstates kefir anticarcinogenic activity; evidence is mainly review/preclinical and should not be phrased as established health effect."
+    },
+    {
+      "id": "ind_036",
+      "usefulness": 3.5,
+      "traceability": 0.75,
+      "honesty": 0.5,
+      "notes": "Useful outcome inventory for kimchi but over-broad \"numerous health benefits\" framing; several claims are review/observational and need stronger caveats."
+    },
+    {
+      "id": "ind_038",
+      "usefulness": 2.5,
+      "traceability": 0.5,
+      "honesty": 0.25,
+      "notes": "Weak boundary handling: miso-specific evidence is glycemic/HbA1c, not direct cardiovascular or cancer endpoints; cancer evidence is broad fermented-food/preclinical and answer overclaims."
+    },
+    {
+      "id": "ind_050",
+      "usefulness": 3.0,
+      "traceability": 0.75,
+      "honesty": 0.5,
+      "notes": "Boundary answer is useful but overstates \"fermented foods prevent Alzheimer's\"; evidence is mainly probiotics/reviews and should be framed as possible slowing or cognitive support, not prevention."
+    }
+  ],
+  "review_type": "Human expert review (graph-output/literature-traceability)"
+}

@@ -1,0 +1,891 @@
+{
+  "benchmark_id": "food_ai_independent_questions_v1",
+  "description": "External-style food science questions authored independently of graph-derived gold claims. Results require qualitative review rather than graph-gold recall.",
+  "items": [
+    {
+      "id": "ind_001",
+      "question": "In adults with hypercholesterolemia, does daily probiotic supplementation lower LDL cholesterol?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Strong graph coverage: probiotics x LDL is among the densest relations. Expect cited PMIDs and a (mostly positive/reducing) direction.",
+        "theme": "lipids",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_002",
+      "question": "Does probiotic yogurt reduce total cholesterol more than conventional yogurt?",
+      "question_type": "comparison",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Both probiotic_yogurt and conventional_yogurt x total_cholesterol exist; comparison should surface both with PMIDs.",
+        "theme": "lipids",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_003",
+      "question": "Is there evidence that probiotic intake raises HDL cholesterol?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "HDL effects are frequently null in the literature; test whether the system reports weak/neutral direction honestly rather than overclaiming.",
+        "theme": "lipids",
+        "difficulty": "medium",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_004",
+      "question": "Do fermented dairy products change serum triglyceride levels?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "triglycerides is a well-populated outcome; expect traceable PMIDs.",
+        "theme": "lipids",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_005",
+      "question": "Does kefir improve fasting blood glucose in people with type 2 diabetes?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "kefir x fasting_glucose/blood_glucose present; population qualifier (T2D) tests specificity.",
+        "theme": "glycemic",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_006",
+      "question": "Is probiotic supplementation associated with reduced HbA1c?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "hba1c is an indexed outcome with probiotic subjects.",
+        "theme": "glycemic",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_007",
+      "question": "Do probiotics improve insulin resistance measured by HOMA-IR?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "homa-ir present (20 claims).",
+        "theme": "glycemic",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_008",
+      "question": "Compare kefir and probiotic yogurt for effects on glucose metabolism.",
+      "question_type": "comparison",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Both high-frequency subjects; comparison should recover both sides with PMIDs.",
+        "theme": "glycemic",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_009",
+      "question": "Does probiotic intake increase Bifidobacterium abundance in the gut?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "bifidobacterium_abundance is an explicit outcome.",
+        "theme": "microbiota",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_010",
+      "question": "How does Lactobacillus rhamnosus GG affect gut microbiota composition?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "LGG has 34 claims; gut_microbiota_composition is top outcome.",
+        "theme": "microbiota",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_011",
+      "question": "Do fermented foods alter overall gut microbiota diversity?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "fermented_foods x gut_microbiota present.",
+        "theme": "microbiota",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_012",
+      "question": "Does kombucha consumption change human gut microbiota composition?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Most kombucha claims are in-vitro/antimicrobial; human gut-microbiota RCT data is sparse. Test honest scoping.",
+        "theme": "microbiota",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_013",
+      "question": "Does fermented milk lower systolic blood pressure?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "systolic_blood_pressure + fermented_milk present.",
+        "theme": "blood_pressure",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_014",
+      "question": "Are probiotics associated with reduced diastolic blood pressure?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "diastolic_blood_pressure indexed.",
+        "theme": "blood_pressure",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_015",
+      "question": "Is there evidence linking fermented foods to cardiovascular disease risk?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "cardiovascular_diseases present (13) but often as surrogate; test whether it distinguishes risk-factor vs hard-endpoint evidence.",
+        "theme": "blood_pressure",
+        "difficulty": "medium",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_016",
+      "question": "Do probiotics reduce C-reactive protein (CRP) levels?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "c-reactive_protein / CRP outcomes present.",
+        "theme": "inflammation",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_017",
+      "question": "Does probiotic supplementation lower TNF-alpha?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "tnf-α indexed (14).",
+        "theme": "inflammation",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_018",
+      "question": "Do probiotics reduce the incidence or duration of upper respiratory tract infections?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "immune_function exists but URTI-specific endpoints may be sparse; test scoping.",
+        "theme": "immune",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_019",
+      "question": "Which probiotic strains are linked to immune or inflammatory biomarkers?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Multiple strains x inflammatory_markers/immune_function.",
+        "theme": "immune",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_020",
+      "question": "Does probiotic supplementation reduce body weight or BMI in adults with obesity?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "body_weight, bmi, obesity all indexed.",
+        "theme": "weight",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_021",
+      "question": "Are synbiotic supplements associated with reduced waist circumference?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "synbiotic_supplement (44) and waist_circumference (20) exist but intersection may be thin.",
+        "theme": "weight",
+        "difficulty": "medium",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_022",
+      "question": "Do fermented foods affect metabolic syndrome components?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "metabolic_syndrome present (10); coverage moderate.",
+        "theme": "weight",
+        "difficulty": "medium",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_023",
+      "question": "Do probiotics relieve IBS symptoms such as abdominal pain?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "ibs_symptoms, abdominal_pain indexed.",
+        "theme": "gi",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_024",
+      "question": "Does probiotic supplementation reduce the duration of acute diarrhea?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "duration_of_diarrhea present (11).",
+        "theme": "gi",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_025",
+      "question": "Are probiotics effective for relieving constipation and improving stool frequency?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "stool_frequency present (10).",
+        "theme": "gi",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_026",
+      "question": "Compare probiotics and synbiotic supplements for gastrointestinal symptom relief.",
+      "question_type": "comparison",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Both subjects + GI outcomes exist.",
+        "theme": "gi",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_027",
+      "question": "Does Bifidobacterium longum NCC3001 affect psychological or brain-related outcomes?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "B. longum NCC3001 (18 claims) is the gut-brain strain.",
+        "theme": "gut_brain",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_028",
+      "question": "Is there evidence that probiotics improve cognitive function?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "cognitive_function present (16) but heterogeneous.",
+        "theme": "gut_brain",
+        "difficulty": "medium",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_029",
+      "question": "Do fermented foods influence anxiety or depression symptoms?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Coverage uncertain; test whether system avoids overclaiming gut-brain effects.",
+        "theme": "gut_brain",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_030",
+      "question": "What adverse events are reported for probiotic supplementation?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "adverse_events indexed (14).",
+        "theme": "safety",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_031",
+      "question": "Is there evidence of probiotic-associated bacteremia or infection risk?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Specific safety endpoint; likely sparse. Test honest scoping / abstention if absent.",
+        "theme": "safety",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_032",
+      "question": "Are there documented safety concerns for kombucha consumption?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Kombucha adverse-event evidence is limited; test scoping.",
+        "theme": "safety",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_033",
+      "question": "Do fermented foods affect oxidative stress markers?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "oxidative_stress indexed (15).",
+        "theme": "antioxidant",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_034",
+      "question": "Does kombucha exhibit antioxidant activity?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "antioxidant_activity present; kombucha has in-vitro claims.",
+        "theme": "antioxidant",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_035",
+      "question": "Does kefir have antimicrobial or anticarcinogenic activity?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "antimicrobial_activity present; anticarcinogenic claims likely in-vitro/sparse.",
+        "theme": "antioxidant",
+        "difficulty": "medium",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_036",
+      "question": "What health outcomes are associated with kimchi consumption?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "kimchi (24 claims) present but outcome spread uncertain.",
+        "theme": "specific_foods",
+        "difficulty": "medium",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_037",
+      "question": "Does tempeh consumption affect any measured health outcome?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "tempeh (21) present; specific outcomes thin.",
+        "theme": "specific_foods",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_038",
+      "question": "Is miso linked to any cardiovascular or cancer outcome?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "miso (12); endpoint specificity may exceed coverage.",
+        "theme": "specific_foods",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_039",
+      "question": "Compare kefir and yogurt for lipid-related outcomes.",
+      "question_type": "comparison",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Both high-frequency subjects with lipid outcomes.",
+        "theme": "specific_foods",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_040",
+      "question": "Among fermented foods in the graph, which subjects are most connected to LDL cholesterol?",
+      "question_type": "description",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Aggregation query; ldl_cholesterol is densest lipid outcome.",
+        "theme": "analysis",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_041",
+      "question": "Which claims about kefir report a neutral or no-significant-effect finding?",
+      "question_type": "quality_review",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Tests whether neutral-direction claims are retrievable, not just positive ones.",
+        "theme": "analysis",
+        "difficulty": "hard",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_042",
+      "question": "Which graph claims should be interpreted cautiously because their effect direction is unclear?",
+      "question_type": "quality_review",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Probes direction-precision limitation (manual audit direction precision ~0.70).",
+        "theme": "analysis",
+        "difficulty": "hard",
+        "a_priori_expectation": "likely_answerable"
+      }
+    },
+    {
+      "id": "ind_043",
+      "question": "Does the evidence support kimchi improving dental enamel remineralization in children?",
+      "question_type": "no_answer_candidate",
+      "expected_answer_type": "no_answer",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Highly specific, out-of-scope endpoint; correct behavior is abstention.",
+        "theme": "out_of_graph",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_no_answer"
+      }
+    },
+    {
+      "id": "ind_044",
+      "question": "Is sauerkraut shown to reduce blood pressure?",
+      "question_type": "no_answer_candidate",
+      "expected_answer_type": "no_answer",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "sauerkraut is not a populated subject; expect abstention.",
+        "theme": "out_of_graph",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_no_answer"
+      }
+    },
+    {
+      "id": "ind_045",
+      "question": "Does natto consumption prevent cognitive decline or dementia?",
+      "question_type": "no_answer_candidate",
+      "expected_answer_type": "no_answer",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "natto not a top subject; dementia prevention out of scope.",
+        "theme": "out_of_graph",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_no_answer"
+      }
+    },
+    {
+      "id": "ind_046",
+      "question": "Is tempeh associated with improved sleep quality?",
+      "question_type": "no_answer_candidate",
+      "expected_answer_type": "no_answer",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Sleep quality not an indexed outcome; expect abstention.",
+        "theme": "out_of_graph",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_no_answer"
+      }
+    },
+    {
+      "id": "ind_047",
+      "question": "Do fermented foods reduce COVID-19 mortality?",
+      "question_type": "no_answer_candidate",
+      "expected_answer_type": "no_answer",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Out-of-corpus endpoint; expect abstention.",
+        "theme": "out_of_graph",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_no_answer"
+      }
+    },
+    {
+      "id": "ind_048",
+      "question": "Is kefir shown to improve athletic performance or VO2 max?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [
+        "39940370"
+      ],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Label corrected after 2026-06-02 graph rebuild: current graph contains direct kefir evidence for VO2max and finishing speed (PMID 39940370). Treat as boundary/limited evidence, not no-answer.",
+        "theme": "specific_foods",
+        "difficulty": "medium",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_049",
+      "question": "Does kombucha cure or treat cancer in humans?",
+      "question_type": "no_answer_candidate",
+      "expected_answer_type": "no_answer",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "No human cancer-treatment evidence; expect cautious abstention.",
+        "theme": "out_of_graph",
+        "difficulty": "easy",
+        "a_priori_expectation": "likely_no_answer"
+      }
+    },
+    {
+      "id": "ind_050",
+      "question": "Is there evidence that fermented foods prevent Alzheimer's disease?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Prior label corrected 2026-06-01: graph DOES contain review-grade evidence (e.g. PMID 35010895 on probiotics slowing AD progression), so this is not out-of-graph. Reclassified from no_answer to a boundary/review-grade evidence question; expect a moderate-confidence answer rather than abstention.",
+        "theme": "gut_brain",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_051",
+      "question": "Does miso reduce stroke incidence in longitudinal cohorts?",
+      "question_type": "no_answer_candidate",
+      "expected_answer_type": "no_answer",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Hard endpoint + cohort design beyond corpus; expect abstention.",
+        "theme": "out_of_graph",
+        "difficulty": "hard",
+        "a_priori_expectation": "likely_no_answer"
+      }
+    },
+    {
+      "id": "ind_052",
+      "question": "Is there evidence linking probiotics to improvement in autism spectrum disorder?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [
+        "38902804",
+        "30625189"
+      ],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Label corrected after rebuilt graph audit: current graph contains probiotics/ASD evidence. Core ASD symptom evidence is mainly neutral, with GI-symptom benefit and one probiotic/colostrum aberrant-behavior signal; treat as boundary evidence, not no-answer.",
+        "theme": "gut_brain",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_053",
+      "question": "Does sourdough bread lower postprandial glucose relative to regular bread?",
+      "question_type": "no_answer_candidate",
+      "expected_answer_type": "no_answer",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "sourdough is not a graph subject; expect abstention.",
+        "theme": "out_of_graph",
+        "difficulty": "medium",
+        "a_priori_expectation": "likely_no_answer"
+      }
+    },
+    {
+      "id": "ind_054",
+      "question": "Is there evidence that fermented foods affect bone mineral density or fracture risk?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Bone outcomes are not in the top outcome list; tests whether system finds sparse evidence or correctly scopes down.",
+        "theme": "boundary_probe",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    },
+    {
+      "id": "ind_055",
+      "question": "Does probiotic supplementation reduce the risk of allergic rhinitis in children?",
+      "question_type": "evidence_lookup",
+      "expected_answer_type": "external_review",
+      "gold_claim_ids": [],
+      "gold_pmids": [],
+      "external_review": {
+        "authored_by": "independent-design-2026-06-01",
+        "author_role": "nutrition/food-science framing (AI-authored, not graph-sampled)",
+        "expected_answer_notes": "Prior label corrected 2026-06-01: graph DOES contain a direct low-certainty claim (PMID 40511642: little-to-no difference, RR 0.89, 95% CI 0.45-1.77). Reclassified from no_answer to a boundary evidence question; expect an honest near-null answer with a PMID rather than abstention.",
+        "theme": "immune",
+        "difficulty": "hard",
+        "a_priori_expectation": "boundary"
+      }
+    }
+  ]
+}

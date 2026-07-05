@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments and secrets
+.env
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Runtime outputs
+logs/
+outputs/
+*.log
+
+# Large/local raw data and generated vector DBs
+data/raw/
+data/metadata/
+data/processed/chroma_db/
+
+# Local manuscript or project-management material should not live in this repo
+manuscript/
+notes/
+archive/
+PROGRESS.md
+CLAUDE.md
+AGENTS.md
